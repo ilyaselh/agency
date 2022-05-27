@@ -1,0 +1,27 @@
+---
+title: Blog
+layout: 'base.njk'
+---
+
+    <div id="Articles" class="container">
+        <h1 class="pb-5">Articles</h1>
+        <div class="row">
+            {%- for post in collections.post -%}
+                <div class="col-md-4">
+                    <a href="{{post.url}}">
+                        <div class="card">
+                            <img src="{{post.data.thumbnail}}" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title cl-1">{{ post.data.title }} </h5>
+                            <p class="card-text">{{post.data.desc}}</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            {%- endfor %}
+        </div>
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    

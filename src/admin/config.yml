@@ -2,7 +2,8 @@ backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
 
-media_folder: "img" 
+media_folder: "public/img" 
+public_folder: "/img"
 
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
@@ -13,5 +14,6 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Desc", name: "desc", widget: "string"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}

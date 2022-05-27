@@ -1,0 +1,24 @@
+{
+  "name": "agency-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilyaselh/agency.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilyaselh/agency/issues"
+  },
+  "homepage": "https://github.com/ilyaselh/agency#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.1"
+  }
+}

@@ -1,0 +1,319 @@
+body{
+    background-color: #f5f5f5;
+    font-family: 'Raleway', sans-serif;
+}
+
+#Hero a{
+    text-decoration: none;
+    color: white;
+}
+
+#Hero a:hover{
+    color: white;
+}
+
+.cl-1{
+color: #124265;
+}
+
+.cl-2{
+color: #2487CE;
+}
+
+.subtitle{
+    font-weight: 400 !important;
+}
+/* navbar */ 
+
+#navbar{
+    border-bottom: 1px solid rgb(236, 236, 236);
+}
+
+nav{
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+.nav-item{
+    padding-left: 2rem;
+    font-weight: 600;
+}
+
+nav .active{
+    color: #2487CE !important;
+}
+
+
+nav .navbar-brand{
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #124265 !important;
+}
+/* Hero */ 
+
+#Hero{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+#Hero::after{
+    content: "";
+    background-image: url(../img/hero-bg.jpg);
+    opacity: 0.25;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+#Hero h1{
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 3rem;
+}
+#Hero h4{
+    margin-bottom: 3rem;
+}
+.d-md-none h1{
+    font-size: 2rem !important;
+    font-weight: 600 !important;
+}
+
+#Hero h5{
+    font-weight: 600;
+}
+
+p{
+    font-size: 0.9rem;
+}
+
+#Hero button{
+    margin-bottom: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #2487CE;
+    color: white;
+    font-weight: 600;
+}
+
+ .card{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0px 0px 5px 1px #ebebeb;
+    transition: transform .5s; /* Animation */
+}
+
+ .card:hover{
+    transform: scale(1.1); 
+}
+
+#Hero .icon{
+    margin-bottom: 1rem !important;
+    color: #2487CE;
+}
+
+/* About */ 
+
+#About{
+    margin-top: 4rem;
+    padding-bottom: 8rem;
+
+}
+
+#About i{
+    color: #2487CE;
+}
+
+#About h1{
+    font-weight: 600;
+}
+
+#About button{
+    margin-bottom: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: color;
+    border: #2487CE solid 0.15rem;
+    color: #2487CE !important;
+    font-weight: 600;
+}
+
+#About a{
+    text-decoration: none;
+    color: #2487CE;
+}
+
+#About a:hover{
+    color: #2487CE;
+}
+
+#About h5{
+    font-weight: 600;
+}
+
+/* Services */ 
+#Services{
+    padding-top: 4rem;
+    margin-bottom: 4rem;
+    padding-bottom: 4rem;
+    background-color: white !important;
+
+}
+
+#Services .card{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0px 0px 5px 1px #ebebeb;
+    transition: transform .5s; /* Animation */
+}
+
+#Services .card:hover{
+    transform: scale(1.1); 
+}
+
+#Services h1{
+    font-weight: 600;
+}
+
+#Services h4{
+    font-weight: 400;
+}
+
+#Services h5{
+    font-weight: 600;
+}
+
+#Services .icon{
+    color: #2487CE;
+}
+/* Contact */ 
+
+#Conatct {
+    margin-bottom: 5rem;
+}
+
+#Contact h1{
+    font-weight: 600;
+}
+
+#Contact h4{
+    color: #124265;
+    font-weight: 600;
+}
+
+#Contact p{
+    color: black;
+}
+
+#Contact button{
+    margin-bottom: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #2487CE;
+    color: white;
+    font-weight: 600;
+}
+
+#Contact label{
+    color: #124265;
+}
+
+#Contact i{
+    color: #2487CE !important;
+    padding-right: 1rem;
+}
+/* footer*/
+
+#Footer {
+    background-color: #ebebeb;
+}
+
+#Footer .subtitle{
+    color: #124265;
+} 
+
+#Footer a{
+    text-decoration: none;
+    color: #4b4b4b;
+}
+
+#Footer .text{
+    color: #4b4b4b;
+}
+
+/* Articles */
+#Articles{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+} 
+
+#Articles h1{
+    font-weight: 600;
+    color: #124265;
+}
+
+#Articles .card{
+    margin-bottom: 3rem;
+    transition: transform .5s; /* Animation */
+}
+
+#Articles .card:hover{
+    transform: scale(1.1);
+}
+
+#Articles .card-title{
+    font-weight: 600;
+}
+
+#Articles a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Article page */
+@media (min-width: 1200px) {
+    .article-page{
+        padding-left: 17rem;
+        padding-right: 17rem;
+    }
+}
+
+.article-page{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.article-page h1{
+    font-weight: 600;
+}
+
+.article-page h3{
+    font-weight: 600;
+}
+
+.article-page img{
+    width: 100%;
+    height: 100%; 
+    object-fit: contain;
+}
