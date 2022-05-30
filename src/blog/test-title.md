@@ -1,5 +1,5 @@
 ---
-title: How To Approach Arabic Localization | Professional Arabic Translations
+title: How To Approach Arabic Localization
 thumbnail: /img/1.jpg
 tags: post
 desc: Before getting started with Arabic localization, it’s important to

@@ -1,5 +1,5 @@
 ---
-title: Digital Media Localization for Arabic Audiences | Professional Arabic Translations
+title: Digital Media Localization for Arabic Audiences
 desc: Digital media plays an important role in the global economy, its primary
   goal is to capture the attention of audiences.  Companies invest significant
   ...

@@ -1,5 +1,5 @@
 ---
-title: "Arabic Website Localization: A guide | Professional Arabic Translations" 
+title: "Arabic Website Localization: A guide" 
 desc: There are 22 Arab countries and over 420 million Arabic speakers around
   the world. These numbers represent a huge opportunity for...
 thumbnail: /img/5.jpg
