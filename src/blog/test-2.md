@@ -1,5 +1,5 @@
 ---
-title: 5 Tips for Localizing for the Arabic Market
+title: 5 Tips for Localizing for the Arabic Market | Professional Arabic Translations
 thumbnail: /img/2.jpg
 tags: post
 desc: With over 180 million Arabic speaking web users, representing 4.8% of the

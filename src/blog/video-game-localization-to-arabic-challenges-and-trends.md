@@ -1,5 +1,5 @@
 ---
-title: "Video Game Localization to Arabic: Challenges and Trends"
+title: "Video Game Localization to Arabic: Challenges and Trends | Professional Arabic Translations"
 desc: The Middle East is one of the most critical regions globally for business,
   especially in the gaming industry, a growing and demanding...
 thumbnail: /img/4.jpg

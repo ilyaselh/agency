@@ -1,5 +1,5 @@
 ---
-title: 8 SEO Tips for Web Localization for Global Markets
+title: 8 SEO Tips for Web Localization for Global Markets | Professional Arabic Translations
 thumbnail: /img/3.webp
 tags: post
 desc: Entering a market with different language requirements necessitates a
