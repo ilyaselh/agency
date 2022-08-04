@@ -2,13 +2,18 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
+img{
+    max-width:100%;
+
+}
+
 #Hero a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 #Hero a:hover{
-    color: white;
+    color: black;
 }
 
 .cl-1{
@@ -171,6 +176,10 @@ p{
     border-bottom: 2px solid #2487CE;
 
 }
+#Services a{
+    text-decoration: none;
+    color: black;
+}
 
 #Services .card{
     padding-top: 1.5rem;
@@ -211,6 +220,11 @@ p{
     padding-top: 4rem;
     padding-bottom: 8rem;
     border-bottom: 2px solid #2487CE;
+}
+
+#Industries a{
+    text-decoration: none;
+    color: black;
 }
 
 #Industries .card{
