@@ -12,7 +12,7 @@ In 2018, the video game localization to the Arabic industry was valued at $148.8
 
 Tom Wigman, the Senior Market Analyst for Newzoo at the Dubai ON DXB event said the Middle East is an up-and-coming market and one of the fastest-growing markets in the gaming industry worldwide.
 
-## **Arabic video game localization**
+## **Arabic game localization**
 
 Video game localization to the Arabic language will not prosper in the Middle East gaming industry unless you arrange your game correctly with a professional company familiar with all the Middle East’s cultural standards and aspects, which can also advise and suggest valuable alternatives on how your game adapts to the target market.
 
@@ -47,8 +47,6 @@ Another trend is called Cultural alignment, or what we call direction, which is 
 ## **Preparing the text**
 
 The critical step here in the text processing phase is to form or place the correct punctuation, which is necessary for Arabic so that the voice actor can deliver the text correctly, bearing in mind that Arabic contains many vocabularies that are similar in pronunciation but used in a completely different sense, which is why the proper composition saves much time and ensures high-quality audio commentary.
-
-
 
 [EA Translations](https://englisharabictranslations.com/) can handle all of this for you, [click here](https://englisharabictranslations.com/) to get a free consultations with us.
 
