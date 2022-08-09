@@ -1,5 +1,5 @@
 ---
-title: 8 SEO Tips for Web Localization for Global Markets
+title: 8 SEO Tips for Web Localization for The Arabic Market
 thumbnail: /img/3.webp
 tags: post
 desc: Entering a market with different language requirements necessitates a
@@ -37,7 +37,7 @@ Create a global glossary for your keywords and specific terminology. Share this 
 
 ### 5. Don't Forget All Your Website Elements
 
-While some website elements may be hidden from visitors, such as META and TITLE tags), it’s important to also adjust these items to local requirements.\
+While some website elements may be hidden from visitors, such as META and TITLE tags, it’s important to also adjust these items to local requirements.\
 \
 You should also take the time to consider whether you wish to localize your URLs, or create a sub-domain of your original website. Many companies choose to indicate language changes in the URLs text.
 
@@ -55,6 +55,6 @@ Localize everything you can; this includes your applications, data feeds, and so
 
 Update your sitemap to include the localized version. Consider creating a new, local version for anything being run locally. You should also consider creating a new footer to hold links to all your international websites.\
 \
-By following the web localization SEO tips above, you’ll help your business to stand out in search engine results and make a smoother transition into new markets. [EA Translations](https://englisharabictranslations.com/) can help you localize your website for the Arabic market, [click here](https://englisharabictranslations.com/) to get a free consultation.
+By following the SEO localization tips above, you’ll help your business to stand out in search engine results and make a smoother transition into new markets. [EA Translations](https://englisharabictranslations.com/) can help you localize your website for the Arabic market, [click here](https://englisharabictranslations.com/) to get a free consultation.
 
 <!--EndFragment-->
