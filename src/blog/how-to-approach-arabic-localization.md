@@ -10,7 +10,7 @@ desc: Before getting started with Arabic localization, it’s important to
 
 Before getting started with Arabic localization, it’s important to understand how Modern Standard Arabic has evolved when thinking about Arabic localization – and the history is fascinating.\
 \
-Arabic is the fifth largest language in the world with over 400 million speakers. They’re primarily based in northern Africa and the Middle East. The written form plays a big role in culture because it’s the language of the Koran (the islamic holy book) and is read by nearly two billion practising Muslims.\
+Arabic is the fifth largest language in the world with over 400 million speakers. They’re primarily based in northern Africa and the Middle East. The written form plays a big role in culture because it’s the language of the Koran (the Islamic holy book) and is read by nearly two billion practicing Muslims.\
 \
 The people who speak different Arabic dialects won’t necessarily understand each other, but luckily Modern Standard Arabic provides an opportunity for Arabic localization.
 
