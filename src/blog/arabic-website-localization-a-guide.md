@@ -2,9 +2,11 @@
 title: "Arabic Website Localization: A guide"
 desc: There are 22 Arab countries and over 420 million Arabic speakers around
   the world. These numbers represent a huge opportunity for...
+metaDesc: "Given the importance and size of Arabic-speaking audiences, companies
+  are looking for ways to have their website content localized properly into
+  Arabic. Below are several Arabic website localization tips to consider before
+  localizing a website for Arab countries:"
 thumbnail: /img/5.jpg
-metaDesc: Get Professional translation services for documents, websites, user manuals, and everything else into Arabic at an excellent value.
-
 ---
 <!--StartFragment-->
 
