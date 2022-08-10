@@ -4,6 +4,8 @@ desc: Arabic is the world’s fifth most commonly spoken language and one of the
   fastest-growing in the United States. It is, however, constantly rated as one
   of the most...
 thumbnail: /img/arabic.jpg
+metaDesc: Get Professional translation services for documents, websites, user manuals, and everything else into Arabic at an excellent value.
+
 ---
 Arabic is the world’s fifth most widely spoken language and one of the fastest-growing in the United States. It is, however, constantly rated as one of the most difficult languages to learn and localize. Whether you need an [English to Arabic translation](englisharabictranslations.com) or vice versa, it’s critical to grasp the dynamics of this complex match-up so you can properly prepare for them. So, what are the potential difficulties of this language pair?
 

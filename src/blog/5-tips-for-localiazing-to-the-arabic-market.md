@@ -5,6 +5,7 @@ tags: post
 desc: With over 180 million Arabic speaking web users, representing 4.8% of the
   global internet population, it isn’t a surprise that you want to localize your
   product for...
+metaDesc: Get Professional translation services for documents, websites, user manuals, and everything else into Arabic at an excellent value.
 ---
 <!--StartFragment-->
 

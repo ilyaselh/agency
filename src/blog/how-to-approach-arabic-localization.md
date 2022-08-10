@@ -5,6 +5,8 @@ tags: post
 desc: Before getting started with Arabic localization, it’s important to
   understand how Modern Standard Arabic has evolved when thinking about Arabic
   localization – and the history is...
+metaDesc: Get Professional translation services for documents, websites, user manuals, and everything else into Arabic at an excellent value.
+
 ---
 <!--StartFragment-->
 
