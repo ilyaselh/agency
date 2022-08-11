@@ -291,13 +291,18 @@ metaDesc: Get Professional translation services for documents, websites, user ma
                       <div class="container" id="Contact">
                             <div class="row">
                               <div class="col-12">
-                                <form id="contactForm" name="contact" method="POST" data-netlify="true">
+                                <form id="contactForm" name="contact" method="POST" data-netlify="true"   netlify-honeypot="bot-field">
+                                  <p class="hidden">
+                                    <label>
+                                      Don’t fill this out if you’re human: <input name="bot-field" />
+                                    </label>
+                                  </p>
                                   <!-- Name input -->
                                   <div class="mb-3">
                                     <label class="form-label fw-bold" for="name"><h4>Name</h4></label>
                                     <input class="form-control" id="name" type="text" placeholder="Name" name="name"/>
                                   </div>
-      
+
                                   <!-- Email address input -->
                                   <div class="mb-3">
                                     <label class="form-label fw-bold" for="emailAddress"><h4>Email Address</h4></label>
@@ -551,7 +556,12 @@ metaDesc: Get Professional translation services for documents, websites, user ma
                   <div class="container" id="Contact">
                     <div class="row">
                       <div class="col-12">
-                        <form id="contactForm" name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+                        <form id="contactForm" name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field">
+                          <p class="hidden">
+                            <label>
+                              Don’t fill this out if you’re human: <input name="bot-field" />
+                            </label>
+                          </p>
                           <!-- Name input -->
                           <div class="mb-3">
                             <label class="form-label fw-bold" for="name">Name</label>
