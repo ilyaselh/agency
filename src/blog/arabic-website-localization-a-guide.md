@@ -7,6 +7,7 @@ metaDesc: "Given the importance and size of Arabic-speaking audiences, companies
   Arabic. Below are several Arabic website localization tips to consider before
   localizing a website for Arab countries:"
 thumbnail: /img/5.jpg
+alt: "Arabic Website Localization: A guide"
 ---
 <!--StartFragment-->
 

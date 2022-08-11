@@ -7,6 +7,7 @@ desc: With over 180 million Arabic speaking web users, representing 4.8% of the
   product for...
 metaDesc: "To ensure that your product gets released with the highest
   localization quality, here are four things to keep in mind:"
+alt: 5 Tips for localizing for the Arabic Market
 ---
 <!--StartFragment-->
 

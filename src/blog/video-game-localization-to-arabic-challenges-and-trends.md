@@ -6,6 +6,7 @@ metaDesc: The Middle East is one of the most critical regions globally for
   business, especially in the gaming industry, a growing and demanding market
   for new games whether available on computers, consoles, or mobile phones.
 thumbnail: /img/4.jpg
+alt: "Video Game Localization to Arabic: Challenges and Trends"
 ---
 <!--StartFragment-->
 

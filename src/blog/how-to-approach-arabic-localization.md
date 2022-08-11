@@ -8,6 +8,7 @@ desc: Before getting started with Arabic localization, it’s important to
 metaDesc: Before getting started with Arabic localization, it’s important to
   understand how Modern Standard Arabic has evolved when thinking about Arabic
   localization – and the history is...
+alt: How To Approach Arabic Localization
 ---
 <!--StartFragment-->
 

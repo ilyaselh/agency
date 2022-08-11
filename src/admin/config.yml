@@ -16,4 +16,5 @@ collections:
       - {label: "Desc", name: "desc", widget: "string"}
       - {label: "MetaDesc", name: "metaDesc", widget: "string"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Image Alt", name: "alt", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}

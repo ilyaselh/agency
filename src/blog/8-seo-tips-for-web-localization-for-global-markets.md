@@ -6,6 +6,7 @@ desc: Entering a market with different language requirements necessitates a
   well-developed SEO strategy designed to fully exploit market...
 metaDesc: "see our 10 web localization SEO tips on how to maximize the results
   of your localization project:"
+alt: 8 SEO Tips for Web Localization for The Arabic Market
 ---
 <!--StartFragment-->
 

@@ -8,6 +8,7 @@ metaDesc: Your digital content should not only be translated into Arabic, it
   region. In this blog, I will cover some tips for localizing your digital
   content for Arabic speaking audiences.
 thumbnail: /img/5.png
+alt: Digital Media Localization for Arabic Audiences
 ---
 <!--StartFragment-->
 
