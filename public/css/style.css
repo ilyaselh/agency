@@ -26,6 +26,16 @@ color: #2487CE;
 
 .subtitle{
     font-weight: 400 !important;
+    font-size: 1.5rem;
+}
+
+.mainSubtitle{
+    font-size: 1.75rem;
+}
+
+.mainSubtitleMobile{
+    font-size: 1.25rem;
+    padding-bottom: 0.5rem;
 }
 /* navbar */ 
 
@@ -268,6 +278,12 @@ p{
     background-color: rgb(250, 250, 250) !important;
 }
 
+#ContactMobile {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    background-color: rgb(250, 250, 250) !important;
+}
+
 #Contact h1{
     font-weight: 600;
 }
@@ -297,6 +313,39 @@ p{
 }
 
 #Contact i{
+    color: #2487CE !important;
+    padding-right: 1rem;
+}
+
+#ContactMobile h1{
+    font-weight: 600;
+}
+
+#ContactMobile h4{
+    color: #124265;
+    font-weight: 600;
+}
+
+#ContactMobile p{
+    color: black;
+}
+
+#ContactMobile button{
+    margin-bottom: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #2487CE;
+    color: white;
+    font-weight: 600;
+}
+
+#ContactMobile label{
+    color: #124265;
+}
+
+#ContactMobile i{
     color: #2487CE !important;
     padding-right: 1rem;
 }
