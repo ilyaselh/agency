@@ -115,7 +115,11 @@ p{
     font-weight: 600;
 }
 
- .card{
+#Hero .card-text{
+    font-size: 0.95rem;
+}
+
+.card{
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     padding-left: 1rem;
@@ -176,6 +180,35 @@ p{
 
 #About h5{
     font-weight: 600;
+}
+
+/* How it works */
+#HowItWorks{
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+    background-color: rgb(255, 255, 255) !important;
+    border-bottom: 2px solid #2487CE;
+}
+
+#HowItWorks h1{
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+
+#HowItWorks h2{
+    font-size: 1.1rem;
+    padding-bottom: 4rem;
+}
+
+#HowItWorks .note{
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+#HowItWorks .icon{
+    color: #2487CE;
+    padding-bottom: 2rem;
+    font-size: 1.75rem;
 }
 
 /* Services */ 
