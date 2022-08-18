@@ -13,16 +13,11 @@ alt: Moroccan Arabic
 
 There is a heated debate among Arabic speakers about Moroccan Arabic, *or as it is known in Morocco, "darija"*, that it is not a “true” Arabic dialect, but rather a variant of North African and European languages. Despite its complexity, Moroccan Arabic is at its core just like the other main Arabic dialects. Besides its Arabic roots, *darija* also has influences from African and European languages like Spanish and French.
 
-
-
 ## History
-
 
 Morocco has been the home of the Berbers since the second millennium B.C. In A.D. 46, Morocco was annexed by Rome as part of the province of Mauritania until the Vandals overran this portion of the declining empire in the 5th century. The Arabs invaded circa 685, bringing Islam. The Berbers joined them in invading Spain in 711, but then they revolted against the Arabs, resenting their treatment as second class citizens. In 1086, Berbers took control of large areas of Moorish Spain until they were expelled in the 13th century.
 
 The land was never truly unified and was usually ruled by small tribal states. Conflicts between Berbers and Arabs were constant. Portugal and Spain began invading Morocco, which helped to unify the land in defense against a common enemy. In 1660, Morocco came under the control of the Alawite dynasty. It is a sherif dynasty—descended from the prophet Muhammad (allegedly)—and rules Morocco to this day.
-
-
 
 ## Variation Within Moroccan Arabic
 
@@ -32,7 +27,7 @@ Moroccan Arabic Consists of three main variants: Northern (الشمالية), Ea
 
  Some Moroccan words are also derived from French (such as \[Toubiis] from \[l’autobus] for bus), Spanish (\[zapaat] from \[zapatos] for shoes), or Tamazight (\[khiizou] from \[xizzo] for carrot).
 
-## Pronunciation 
+## Pronunciation
 
 Here are some of most-common differences in pronunciation between MSA (Standard Arabic) and Darija (Moroccan Arabic) letters: (from left to right)
 
@@ -41,8 +36,6 @@ Here are some of most-common differences in pronunciation between MSA (Standard 
 ذ is pronounced like د
 
 ط ظ and ض are pronounced like ط
-
-
 
 Moroccan Arabic also includes two extra letters: ݣ for “g” and ݒ for “p”.
 
@@ -124,98 +117,68 @@ Here are some basic Moroccan Arabic phrases and words that you can use to start 
 
 How are you? = لاباس (labas)
 
-
 Good = مزيان (mezyan)
-
 
 Ok (affirmative to a command) = وخا (wakha)
 
-
 What’s up? = كداير(ة)؟ (kdair\[a])
-
 
 Who are you? (Female) = شكون نتي؟ (shkoun nti)
 
 Who are you? (Male) = شكون نتا؟ (shkoun nta)
 
-
 What’s your name? = شنو سميتك؟ (shnou smiitak)
-
 
 My name is… = سميتي (smiitii)
 
-
 Where are you from? = منين نتا؟ (mniin nta)
-
 
 Where are you going? = فين ماشي؟ (fiin mashi)
 
-
 Straight = نيشان (niishaan)
-
 
 To the right = ليمين (liimiin)
 
-
 To the left = ليسير (liyssar)
-
 
 Quickly!  = دغية (dghiya)
 
-
 What time is it? = شحال الوقت؟ (shHal lwaqt)
-
 
 About nine o'clock. = مع التسعود (maa tts’oud) 
 
-
 (At) what time? = فوقاش؟ (fawqash)
-
 
 Now. = دابا (daabaa)
 
-
 Later. = من بعد (men baad)
-
 
 How much is this? = بشحال هادا؟ (bishHal hada)
 
-
 What do you want? = شنو بغيتي؟ (shnou bghiitii)
-
 
 I want… = بغيت (bghiit)
 
-
 Please! = (‘afaak) عفاك
-
 
 Do you like…? = كتبغي؟ (katbghii)
 
-
 I like = كنبغي (kanbghii)
-
 
 Delicious. = بنين (bniin)
 
-
 Very/a lot = بزاف (bzaaf)
-
 
 No more, I’m full! = بركة عليا، شبعت (baraka ‘alayya, shba’t)
 
-
 Excuse me. = سمح(ي) ليا (smH\[ii] liyya)
-
 
 Not a problem! = ما شي مشكيل (maa shii mushkiil)
 
-
-
 ## Moroccan Arabic Translation Services
 
-If you are in need of a Moroccan Arabic translator or translation services, then you've come to the right place. We have a number a specialized translators who will handle your translation and convey your message accurately in Moroccan Arabic.
+If you are in need of a Moroccan Arabic translator or [translation services](https://englisharabictranslations.com/), then you've come to the right place. We have a number a specialized translators who will handle your translation and convey your message accurately in Moroccan Arabic.
 
-Contact us to [get a free quote](https://englisharabictranslations.com/) for your project or documents!
+Contact us to [get a free quote](https://englisharabictranslations.com/#Contact) for your project or documents!
 
 <!--EndFragment-->
