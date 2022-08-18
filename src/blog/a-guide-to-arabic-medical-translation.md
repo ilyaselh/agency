@@ -66,13 +66,12 @@ The cost of medical translation is just any other field in this case, it depends
 
 A shorter deadline time for medical translation services usually means greater costs, it known as a rush fee delivery. For specific pricing information on your medical documents, don't hesitate to [request a free quote.](https://englisharabictranslations.com/#Contact) Don't forget to include your document word count, the language pair, and of course, the deadline.
 
-### \
-Length And Complexity
+### Length And Complexity
 
 Longer medical translations cost more. Examples of a specialized medical documents may include informed consent forms, clinical data, and medical device manuals.
 
 ## Arabic Medical Translation Services
 
-If you are in need of online medical translation services for your documents, then you've come to the right place.
+If you are in need of online [medical translation services](https://englisharabictranslations.com/medical-industry/) for your documents, then you've come to the right place.
 
 At EA Translations, We handle medical translations we the utmost care, only translators who are specialized in the medical field are allowed to work on medical projects. [Contact us](https://englisharabictranslations.com/#Contact) for a free quote or for a consultation.
