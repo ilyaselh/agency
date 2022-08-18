@@ -7,7 +7,7 @@ desc: With over 180 million Arabic speaking web users, representing 4.8% of the
   product for...
 metaDesc: "To ensure that your product gets released with the highest
   localization quality, here are four things to keep in mind:"
-alt: 5 Tips for localizing for the Arabic Market
+alt: 4 Tips for localizing for the Arabic Market
 ---
 <!--StartFragment-->
 
@@ -35,7 +35,7 @@ Given the diversity of the Arabic community, some images may be accepted by cert
 
 ### Pay attention to the layout:
 
-Getting the layout right is challenging, due to the nature of presentation of images and text in Arabic. Even though Arabic is written and read from right to left, it tends to be bi-directional when there are untranslatable phrases or words.\
+Getting the layout right when [Arabic is involved is challenging](https://englisharabictranslations.com/blog/the-challenges-of-arabic-to-english-translation/), due to the nature of presentation of images and text in Arabic. Even though Arabic is written and read from right to left, it tends to be bi-directional when there are untranslatable phrases or words. \
 \
 In this scenario, the untranslatable words have to be written from left to right. However, not every software has this capability to change the direction of the text when it encounters such phrases or words.\
 \
@@ -47,8 +47,6 @@ As it was mentioned in the earlier portions of the article, there are many diale
 \
 Given the variation in vocabulary, if you use Algerian Saharan Arabic when your product is available in Saudi Arabia, they may not understand the text at all. Also, specific themes or ideas may seem okay in Western countries, but that doesn’t mean you can use them in the Arabic market.
 
-
-
-[EA Translations](https://englisharabictranslations.com/) can handle all of this for you, [click here](https://englisharabictranslations.com/) to get a free consultations with us.
+[EA Translations](https://englisharabictranslations.com/) can handle all of this for you, [](https://englisharabictranslations.com/)[Contact us](https://englisharabictranslations.com/#Contact) to get a free quote for your website or anything else!.
 
 <!--EndFragment-->
