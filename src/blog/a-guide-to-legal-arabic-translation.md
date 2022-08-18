@@ -45,7 +45,7 @@ Legal Translators make sure that these documents follow the legal terms so that 
 
 Translation in its core is a job that requires an in-depth knowledge and expertise of the project's field, as well as the specific terminology that is used in that field. The translator needs to understand not only the source language and the target language but also the subject matter. Whether it's law or medicine or any other field, anyone offering translation services must be familiar with their subject. He or she must be able to answer any questions that arise during the translation process.
 
-A professional legal translation service should include a translator who has years of experience translating documents in the legal field. They should be familiar with legal terminology, and they should have legal training before working on legal documents. A lot of legal translators worked as paralegals in their previous job, some even were lawyers themselves.
+A professional [legal translation service](https://englisharabictranslations.com/legal-industry/) should include a translator who has years of experience translating documents in the legal field. They should be familiar with legal terminology, and they should have legal training before working on legal documents. A lot of legal translators worked as paralegals in their previous job, some even were lawyers themselves.
 
 Legal translators often consult specialized bilingual [](https://en.wikipedia.org/wiki/Law_dictionary "Law dictionary")legal dictionaries, or as they are know in the translation industry as glossaries. Caution should be exercised, as some law dictionaries are of very poor quality and their use may lead to mistranslation.
 
