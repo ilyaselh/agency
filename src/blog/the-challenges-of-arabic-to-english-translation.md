@@ -1,5 +1,5 @@
 ---
-title: How To Handle of Arabic to English Translation
+title: How To Handle Arabic to English Translation
 desc: It is pretty challenging to translate text from one language to another in
   a such a manner that the translated text retains the same meaning, style, and
   tone. Sometimes, you can keep the meaning...
