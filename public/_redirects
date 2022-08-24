@@ -1,2 +1,30 @@
-/industryit        /software-industry    301
+/industryit/        /software-industry   
+/industryfinance        /finance-industry   
+/industrymarketing        /marketing-industry    
+/industrylaw        /legal-industry   
+/industrytechnical        /technical-industry 
+/industrymedical        /medical-industry   
+
+/industryit/index.html         /software-industry   
+/industryfinance/index.html        /finance-industry   
+/industrymarketing/index.html        /marketing-industry    
+/industrylaw/index.html        /legal-industry   
+/industrytechnical/index.html        /technical-industry 
+/industrymedical/index.html        /medical-industry   
+
+/servicedtp             /desktop-publishing-services
+/serviceediting             /editing-services
+/servicelocalization                /localization-services
+/serviceproofreading            /proofreading-services
+/servicetranscreation           /transcreation-services
+/servicetranslation             /translation-services
+
+/servicedtp/index.html             /desktop-publishing-services
+/serviceediting/index.html             /editing-services
+/servicelocalization/index.html                /localization-services
+/serviceproofreading/index.html           /proofreading-services
+/servicetranscreation/index.html           /transcreation-services
+/servicetranslation/index.html             /translation-services
+
+/4-tips-for-arabic-translation-for-your-marketing-campaign/index.html           /4-tips-for-arabic-translation-for-your-marketing-campaign
 
