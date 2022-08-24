@@ -33,7 +33,7 @@ A unique aspect of Arabic that the western world doesn't have is that each count
 
 This phenomenon in linguistics is called "diglossia". Diglossia is a term that is used when a language has a high and low varieties, a formal and a colloquial version. This term is used a lot when it comes to discussing the relationship between Modern Standard Arabic (MSA) and its multiple dialects.
 
-You can think of Arabic as language that exists in a spectrum On one end you have Modern Standard Arabic, and on the other hand you have the colloquial form of lesser educated people. Most Arabic dialects exist somewhere in the middle of this spectrum.
+You can think of Arabic as language that exists in a spectrum. On one end you have Modern Standard Arabic, and on the other hand you have the colloquial form of lesser educated people. Most Arabic dialects exist somewhere in the middle of this spectrum.
 
 This perplexes a lot of English speakers with question like "can an Arabic translator only translate a specific dialect?"
 
@@ -72,7 +72,7 @@ The Arabic alphabet has 28 letters, that means two more letters than the English
 
 ### Thinking Methods
 
-Most Arabic translators face this challenge. When translating from English to Arabic, they have to switch their thinking method from the English way of thinking to the Arabic way.
+Most Arabic translators face this challenge. When [translating from English to Arabic](https://englisharabictranslations.com/blog/challenges-of-translating-english-to-arabic/), they have to switch their thinking method from the English way of thinking to the Arabic way.
 
 Phrasal verbs are the perfect way to explain this. In English, the sentence ‘I think of/about something/someone/’ would translate to ‘I think in something’ or ‘I think by someone’. The use of prepositions in the two languages is very different, as is shown in the above example.
 
@@ -84,7 +84,7 @@ In conclusion to this discussion, translating Arabic texts into English necessit
 
 **Arabic to English translation** is difficult, but with a team of professionals, it is doable. It requires highly skilled translators and linguists who have both technical knowledge and spoken knowledge of the two languages. You can find such professionals with us!
 
-If you are looking for **translation services online,** you should consider EA Translations. We have a team of talented and dedicated professionals, most of whom have a years of experience in the translation industry. We provide high-quality affordable services that will always meet your deadline. 
+If you are looking for **[translation services online](https://englisharabictranslations.com/translation-services/),** you should consider EA Translations. We have a team of talented and dedicated professionals, most of whom have a years of experience in the translation industry. We provide high-quality affordable services that will always meet your deadline. 
 
 Get in touch with us to [free quote!](https://englisharabictranslations.com/)
 
