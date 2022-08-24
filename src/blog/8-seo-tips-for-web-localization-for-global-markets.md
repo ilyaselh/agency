@@ -58,6 +58,6 @@ Localize everything you can; this includes your applications, data feeds, and so
 
 Update your sitemap to include the localized version. Consider creating a new, local version for anything being run locally. You should also consider creating a new footer to hold links to all your international websites.\
 \
-By following the SEO localization tips above, you’ll help your business to stand out in search engine results and make a smoother transition into new markets. [EA Translations](https://englisharabictranslations.com/) can help you localize your website for the Arabic market, [](https://englisharabictranslations.com/)[contact us ](https://englisharabictranslations.com/#Contact)to get a free consultation.
+By following the SEO localization tips above, you’ll help your business to stand out in search engine results and make a smoother transition into new markets. [EA Translations](https://englisharabictranslations.com/) can help you [localize your website](https://englisharabictranslations.com/software-industry/) for the Arabic market, [](https://englisharabictranslations.com/)[contact us ](https://englisharabictranslations.com/#Contact)to get a free consultation.
 
 <!--EndFragment-->
