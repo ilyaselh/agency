@@ -6,7 +6,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/admin");
   eleventyConfig.addPassthroughCopy("./src/Favicon");
   eleventyConfig.addPassthroughCopy("./src/sitemap.xml");
-  eleventyConfig.addPassthroughCopy("./src/netlify.toml");
+  eleventyConfig.addPassthroughCopy("./src/_redirects");
     // Return your Object options:
     return {
       dir: {
