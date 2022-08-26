@@ -9,7 +9,7 @@ metaDesc: Arabic is the world’s fifth most commonly spoken language and one of
 thumbnail: /img/arabic.jpg
 alt: Challenges of Translating English to Arabic
 ---
-Arabic is the world’s fifth most widely spoken language and one of the fastest-growing in the United States. It is, however, constantly rated as one of the most difficult languages to learn and localize. Whether you need an [English to Arabic translation](englisharabictranslations.com) or vice versa, it’s critical to grasp the dynamics of this complex match-up so you can properly prepare for them. So, what are the potential difficulties of this language pair?
+Arabic is the world’s fifth most widely spoken language and one of the fastest-growing in the United States. It is, however, constantly rated as one of the most difficult languages to learn and localize. Whether you need an [English to Arabic translation](https://englisharabictranslations.com/translation-services/) or vice versa, it’s critical to grasp the dynamics of this complex match-up so you can properly prepare for them. So, what are the potential difficulties of this language pair?
 
 ## 1 - New Vocabulary
 
@@ -59,8 +59,8 @@ Furthermore, in rising Arabic-speaking regions such as Africa, where technology 
 
 As you can see, there are linguistic, cultural, and technical issues with Arabic-English and English to Arabic translation. Translators with deep knowledge of both language and culture are required to effectively transmit your target market’s jargon, metaphors, slang, and other linguistic/cultural variances.
 
-You should look for translators who, if not native Arabic speakers, have spent time in one or more Arabic-speaking nations. The top Arabic translators have access to a network of subject matter experts who can help them learn your industry’s terminology. This is where an LSP comes in, ensuring that your Arabic localization project is handled by the most skilled translators.
+You should look for translators who, if not native Arabic speakers, have spent time in one or more Arabic-speaking nations. The top Arabic translators have access to a network of subject matter experts who can help them learn your industry’s terminology. This is where an LSP comes in, ensuring that your [Arabic localization](https://englisharabictranslations.com/blog/5-tips-for-localiazing-to-the-arabic-market/) project is handled by the most skilled translators.
 
 It is difficult, but not impossible, to translate between Arabic and English in either direction. We hope this article eases some of the stress you may be experiencing as a result of reading about all of these issues. The proper partner can ensure that your material is well-received in the Arabic market.
 
-Do you have any questions concerning Arabic translation or where to get Arabic linguists? We at EA Translations provide professional English to Arabic translation services in multiple industries. Don't hesitate to contact us for a [free consultation](englisharabictranslations.com)!
+Do you have any questions concerning Arabic translation or where to get Arabic linguists? We at [EA Translations](https://englisharabictranslations.com/) provide professional English to Arabic translation services in multiple industries. Don't hesitate to contact us for a [free consultation](englisharabictranslations.com/#Contact)!
