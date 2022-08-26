@@ -74,4 +74,4 @@ Longer medical translations cost more. Examples of a specialized medical documen
 
 If you are in need of online [medical translation services](https://englisharabictranslations.com/medical-industry/) for your documents, then you've come to the right place.
 
-At EA Translations, We handle medical translations we the utmost care, only translators who are specialized in the medical field are allowed to work on medical projects. [Contact us](https://englisharabictranslations.com/#Contact) for a free quote or for a consultation.
+At [EA Translations](https://englisharabictranslations.com/), We handle medical translations we the utmost care, only translators who are specialized in the medical field are allowed to work on medical projects. [Contact us](https://englisharabictranslations.com/#Contact) for a free quote or for a consultation.
