@@ -448,11 +448,16 @@ p{
     color: black;
 }
 
-.article-page h1{
+h1{
     font-weight: 600;
 }
 
-.article-page h3{
+
+h2{
+    font-weight: 600;
+}
+
+h3{
     font-weight: 600;
 }
 
