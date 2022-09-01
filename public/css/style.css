@@ -1,5 +1,5 @@
 body{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 img{
@@ -30,7 +30,9 @@ color: #2487CE;
 }
 
 .mainSubtitle{
-    font-size: 1.75rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding-bottom: 5rem;
 }
 
 .mainSubtitleMobile{
@@ -197,6 +199,7 @@ p{
 
 #HowItWorks h2{
     font-size: 1.1rem;
+    font-weight: 500;
     padding-bottom: 4rem;
 }
 
@@ -244,6 +247,11 @@ p{
 
 #Services h1{
     font-weight: 600;
+}
+
+#Services h2{
+    font-size: 1.1rem;
+    font-weight: 500;
 }
 
 #Services h4{
@@ -483,3 +491,48 @@ p{
     color: white;
     font-weight: 600;
 }
+
+.translationService p{
+    font-size: 1.25rem !important;
+}
+
+.translationService h1{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.translationService h2{
+    font-weight: 700;
+    font-size: 2.25rem;
+}
+
+.translationService button{
+    margin-bottom: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #2487CE;
+    color: white;
+    font-weight: 600;
+}
+
+.translationService .note{
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.translationService .icon{
+    color: #2487CE;
+    padding-bottom: 2rem;
+    font-size: 1.75rem;
+}
+
+.translationService .sec{
+    background-color: rgb(250, 250, 250) !important;
+}
+
+.translationService .first{
+    border-bottom: 2px solid #2487CE;
+}
+
