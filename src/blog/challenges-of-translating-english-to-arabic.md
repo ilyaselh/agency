@@ -63,4 +63,4 @@ You should look for translators who, if not native Arabic speakers, have spent t
 
 It is difficult, but not impossible, to translate between Arabic and English in either direction. We hope this article eases some of the stress you may be experiencing as a result of reading about all of these issues. The proper partner can ensure that your material is well-received in the Arabic market.
 
-Do you have any questions concerning Arabic translation or where to get Arabic linguists? We at [EA Translations](https://englisharabictranslations.com/) provide professional English to Arabic translation services in multiple industries. Don't hesitate to contact us for a [free consultation](englisharabictranslations.com/#Contact)!
+Do you have any questions concerning Arabic translation or where to get Arabic linguists? We at [EA Translations](https://englisharabictranslations.com/) provide professional English to Arabic translation services in multiple industries. Don't hesitate to contact us for a [free consultation](https://englisharabictranslations.com/#Contact)!
