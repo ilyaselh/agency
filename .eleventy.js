@@ -7,6 +7,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/Favicon");
   eleventyConfig.addPassthroughCopy("./src/sitemap.xml");
   eleventyConfig.addPassthroughCopy("./src/_redirects");
+  eleventyConfig.addPassthroughCopy("./src/robots.txt");
     // Return your Object options:
     return {
       dir: {
