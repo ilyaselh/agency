@@ -31,7 +31,7 @@ As a result, when a translator is unsure about the location, issues arise. When 
 
 ## 4 - Incomprehensibility
 
-Arabic and English, with their vast vocabularies, don’t always translate smoothly. Technically, the term “access” does not exist in Arabic. Similarly, notions that we can’t (or can, but clumsily) express in English can be represented in Arabic in a single word—for example, (Zankha), a term that loosely describes an indefinable odor.
+One of the biggest challenges when it comes to English to Arabic translation, is that these two languages, with their vast vocabularies, don’t always translate smoothly. Technically, the term “access” does not exist in Arabic. Similarly, notions that we can’t (or can, but clumsily) express in English can be represented in Arabic in a single word—for example, (Zankha), a term that loosely describes an indefinable odor.
 
 In these circumstances, translators must choose between adapting Arabic text to English and keeping Arabic terms to offer English speakers a taste of the culture (possibly through transliteration) (converting words from one script to another).
 
@@ -41,7 +41,7 @@ Given the cultural variations between Arabic and English, it’s very uncommon t
 
 Lexical ambiguity occurs when there are multiple ways to translate a word, particularly the written word, which in most Arabic texts lacks short vowels. The term jzr (جزر), for example, might be read as juzur (islands), jazr (ebb), or jazar (carrots) depending on the context.
 
-You may also encounter pronoun reference ambiguity when translating from English to Arabic, which occurs when it is unclear to which noun a pronoun refers. Regardless of gender, we employ the second and third-person pronouns “you” and “they” in English. Pronouns in Arabic vary in number and gender. When the only context accessible to translators is “you” or “they,” it’s not always clear which Arabic pronoun to use.
+You may also encounter pronoun reference ambiguity in [English to Arabic translation](https://englisharabictranslations.com/translation-services/), which occurs when it is unclear to which noun a pronoun refers. Regardless of gender, we employ the second and third-person pronouns “you” and “they” in English. Pronouns in Arabic vary in number and gender. When the only context accessible to translators is “you” or “they,” it’s not always clear which Arabic pronoun to use.
 
 ## 6 - Sentence Structure
 
