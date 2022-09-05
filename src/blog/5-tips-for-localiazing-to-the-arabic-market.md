@@ -45,7 +45,7 @@ Even the elements of your product must get reversed, along with the text, for pr
 
 As it was mentioned in the earlier portions of the article, there are many dialects of Arabic. Due to this reason, your localization depends on the region you are releasing your product.\
 \
-Given the variation in vocabulary, if you use Algerian Saharan Arabic when your product is available in Saudi Arabia, they may not understand the text at all. Also, specific themes or ideas may seem okay in Western countries, but that doesn’t mean you can use them in the Arabic market.
+Given the variation in vocabulary, if you use Algerian Saharan Arabic when your product is available in Saudi Arabia, they may not understand the text at all. Also, specific themes or ideas may seem okay in Western countries, but that doesn’t mean you can use them in the [Arabic market](https://englisharabictranslations.com/translation-services/).
 
 [EA Translations](https://englisharabictranslations.com/) can handle all of this for you, [](https://englisharabictranslations.com/)[Contact us](https://englisharabictranslations.com/#Contact) to get a free quote for your website or anything else!.
 

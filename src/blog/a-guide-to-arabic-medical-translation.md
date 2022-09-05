@@ -56,7 +56,7 @@ As you can see there's a huge variety of documents that may need to be translate
 
 ## Who Can Handle Arabic Medical Translation?
 
-The short answer would definitely be a medical translator. You cannot take the risk of hiring an general translator who has never worked on a medical project before. That's because unlike general translations, mistakes in medical translations can cause severe accidents, and in some very extreme cases, they could cost someone's life. Therefore it is absolutely crucial to hire a professional medical translator instead of risking it and hiring a amateur, no matter how attractive their pricing might be.
+The short answer would definitely be a medical translator. You cannot take the risk of hiring an general translator who has never worked on a medical project before. That's because unlike general translations, mistakes in medical translations can cause severe accidents, and in some very extreme cases, they could cost someone's life. Therefore it is absolutely crucial to hire a [professional medical translator](https://englisharabictranslations.com/translation-services/) instead of risking it and hiring a amateur, no matter how attractive their pricing might be.
 
 ## How Much Does an Arabic Medical Translation Cost?
 
@@ -72,6 +72,6 @@ Longer medical translations cost more. Examples of a specialized medical documen
 
 ## Arabic Medical Translation Services
 
-If you are in need of online [medical translation services](https://englisharabictranslations.com/medical-industry/) for your documents, then you've come to the right place.
+If you are in need of online [medical translation services](https://englisharabictranslations.com/translation-services/) for your documents, then you've come to the right place.
 
 At [EA Translations](https://englisharabictranslations.com/), We handle medical translations we the utmost care, only translators who are specialized in the medical field are allowed to work on medical projects. [Contact us](https://englisharabictranslations.com/#Contact) for a free quote or for a consultation.
