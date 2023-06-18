@@ -103,7 +103,7 @@ nav .navbar-brand{
 }
 
 p{
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 #Hero button{
@@ -456,16 +456,16 @@ p{
     color: black;
 }
 
-h1{
+.article-page h1{
     font-weight: 600;
 }
 
 
-h2{
+.article-page h2{
     font-weight: 600;
 }
 
-h3{
+.article-page h3{
     font-weight: 600;
 }
 
@@ -475,7 +475,7 @@ h3{
     object-fit: contain;
 }
 
-p{
+.article-page p{
     font-size: 1rem;
     color: black;
 }
@@ -492,13 +492,34 @@ p{
     font-weight: 600;
 }
 
-.translationService p{
+.translationService{
+    background-color: white;
+}
+
+.translationService #LandingPageSection1{
+    background-image: url(../img/LandingBackground.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.translationService #MainPar{
     font-size: 1.25rem !important;
+    color: #7f7f7f !important;
+    padding-bottom: 2rem !important;
+    
+}
+
+.translationService #SecPar{
+    font-size: 0.85rem !important;
+    color: black;
+    padding-bottom: 2rem;
 }
 
 .translationService h1{
-    font-weight: 700;
-    font-size: 3rem;
+    font-weight: 900;
+    font-size: 3.5rem;
+    padding-top: 6.5rem;
+    padding-bottom: 2rem;
 }
 
 .translationService h2{
@@ -507,7 +528,6 @@ p{
 }
 
 .translationService button{
-    margin-bottom: 5rem;
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 0.5rem;
@@ -536,3 +556,86 @@ p{
     border-bottom: 2px solid #2487CE;
 }
 
+.translationService #LandingPageSection1{
+    height: 100vh;
+}
+
+.translationService .CtaButton{
+    border-radius: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-bottom: 2rem;
+    transition: transform .35s;
+}
+
+.translationService .CtaButton:hover{
+    transform: scale(1.1); 
+    color: white !important;
+}
+
+.translationService #LandingPageHowItWorks{
+    min-height: 85vh;
+}
+
+.translationService #LandingPageForm{
+    min-height: 100vh;
+}
+
+.translationService #LandingPageReviews{
+    min-height: 75vh;
+}
+
+.translationService #Contac{
+    background-color: #f7f7f7;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-radius: 1rem;
+    border: solid 0.15rem;
+    border-color: #2487CE;
+}
+
+.translationService .SubmitButton{
+    border-radius: 5rem;
+}
+
+@media only screen and (max-width: 600px){
+    .translationService h1{
+        font-weight: 900;
+        font-size: 2.35rem;
+        padding-top: 6.5rem;
+        padding-bottom: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .translationService .CtaButton{
+        border-radius: 5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        margin-bottom: 2rem;
+        transition: transform .35s;
+        width: 80%;
+        font-size: 1.25rem;
+    }
+    
+    .translationService .CtaButton:hover{
+        transform: scale(1.1); 
+        color: white !important;
+    }
+    
+    .translationService p{
+        font-size: 1.2rem;
+    }
+
+    .translationService #MainPar{
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+    }
+}
