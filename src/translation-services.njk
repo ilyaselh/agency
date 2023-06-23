@@ -150,7 +150,7 @@ metaDesc: Get Professional translation services for documents, websites, user ma
                         <div class="container-full" id="Contac">
                                 <div class="row">
                                   <div class="col-12">
-                                    <form id="contactForm" name="contact" method="POST" data-netlify="true"   netlify-honeypot="bot-field">
+                                    <form id="contactForm" name="contact-translationServices" method="POST" data-netlify="true"   netlify-honeypot="bot-field">
                                       <p hidden>
                                         <label>
                                           Don’t fill this out if you’re human: <input name="bot-field" />
@@ -164,14 +164,14 @@ metaDesc: Get Professional translation services for documents, websites, user ma
                                       <!-- Email address input -->
                                       <div class="mb-3">
                                         <label class="form-label fw-bold" for="emailAddress">Email Address</label>
-                                        <input class="form-control" id="emailAddress" type="email" placeholder="Email Address test" name="email" required/>
+                                        <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" name="email" required/>
                                       </div>
                                       <!-- Lang input -->
 
                                       <div class="mb-3">
                                         <label class="form-label fw-bold" for="Source-LanguageL[]">Source Language</label>
                                         <select class="form-select" id="SL" aria-label="Default select example" name="Source-LanguageL[]" required>
-                                          <option value="">Select a language</option>
+                                          <option value="" disabled selected>Select a language</option>
                                           <option value="English">English</option>
                                           <option value="Spanish">Spanish</option>
                                           <option value="Arabic">Arabic</option>
@@ -191,7 +191,7 @@ metaDesc: Get Professional translation services for documents, websites, user ma
                                       <div class="mb-3">
                                         <label class="form-label fw-bold" for="Target-LanguageL[]" >Target Language</label>
                                         <select class="form-select" id="TL" aria-label="Default select example" name="Target-LanguageL[]" required>
-                                          <option value="">Select a language</option>
+                                          <option value="" disabled selected>Select a language</option>
                                           <option value="English">English</option>
                                           <option value="Spanish">Spanish</option>
                                           <option value="Arabic">Arabic</option>
