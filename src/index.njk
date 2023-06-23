@@ -314,40 +314,80 @@ metaDesc: EA Translations is a professional translation agency that provides onl
                             <div class="row">
                               <div class="col-12">
                                 <form id="contactForm" name="contact" method="POST" data-netlify="true"   netlify-honeypot="bot-field">
-                                  <p hidden>
-                                    <label>
-                                      Don’t fill this out if you’re human: <input name="bot-field" />
-                                    </label>
-                                  </p>
-                                  <!-- Name input -->
-                                  <div class="mb-3">
-                                    <label class="form-label fw-bold" for="name"><h4>Name</h4></label>
-                                    <input class="form-control" id="name" type="text" placeholder="Name" name="name"/>
-                                  </div>
+                                      <p hidden>
+                                        <label>
+                                          Don’t fill this out if you’re human: <input name="bot-field" />
+                                        </label>
+                                      </p>
+                                      <!-- Name input -->
+                                      <div class="mb-3">
+                                        <label class="form-label fw-bold" for="name">Name</label>
+                                        <input class="form-control" id="name" type="text" placeholder="Name" name="name" required/>
+                                      </div>
+                                      <!-- Email address input -->
+                                      <div class="mb-3">
+                                        <label class="form-label fw-bold" for="emailAddress">Email Address</label>
+                                        <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" name="email" required/>
+                                      </div>
+                                      <!-- Lang input -->
 
-                                  <!-- Email address input -->
-                                  <div class="mb-3">
-                                    <label class="form-label fw-bold" for="emailAddress"><h4>Email Address</h4></label>
-                                    <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" name="email" />
-                                  </div>
-      
-                                  <!-- Message input -->
-                                  <div class="mb-3">
-                                    <label class="form-label fw-bold" for="message"><h4>Message</h4></label>
-                                    <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" name="message"></textarea>
-                                  </div>
-                                  
-                                  <div class="py-3">
-                                    <label>
-                                      <span>Add file:</span>
-                                      <input name="file" type="file"/>
-                                    </label>
-                                  </div>
-                                  <!-- Form submit button -->
-                                  <div class="d-grid">
-                                    <button class="btn primary btn-lg" type="submit">Submit</button>
-                                  </div>
-                                </form>
+                                      <div class="mb-3">
+                                        <label class="form-label fw-bold" for="SL">Source Language</label>
+                                        <select class="form-select" id="SL" aria-label="Default select example" name="SL[]" required>
+                                        <option value="">Select a language</option>
+                                        <option value="English">English</option>
+                                        <option value="Spanish">Spanish</option>
+                                        <option value="Arabic">Arabic</option>
+                                        <option value="French">French</option>
+                                        <option value="German">German</option>
+                                        <option value="Japanese">Japanese</option>
+                                        <option value="Korean">Korean</option>
+                                        <option value="Simplified chinese">Simplified chinese</option>
+                                        <option value="Italian">Italian</option>
+                                        <option value="Swedish">Swedish</option>
+                                        <option value="Norwegian">Norwegian</option>
+                                        <option value="Portuguese">Portuguese</option>
+                                        <option value="Russian">Russian</option>
+                                        <option value="Hindi">Hindi</option>
+                                        </select>
+                                      </div>
+                                      <div class="mb-3">
+                                        <label class="form-label fw-bold" for="TL" >Target Language</label>
+                                        <select class="form-select" id="TL" aria-label="Default select example" name="TL[]"  required>
+                                        <option value="">Select a language</option>
+                                        <option value="English">English</option>
+                                        <option value="Spanish">Spanish</option>
+                                        <option value="Arabic">Arabic</option>
+                                        <option value="French">French</option>
+                                        <option value="German">German</option>
+                                        <option value="Japanese">Japanese</option>
+                                        <option value="Korean">Korean</option>
+                                        <option value="Simplified chinese">Simplified chinese</option>
+                                        <option value="Italian">Italian</option>
+                                        <option value="Swedish">Swedish</option>
+                                        <option value="Norwegian">Norwegian</option>
+                                        <option value="Portuguese">Portuguese</option>
+                                        <option value="Russian">Russian</option>
+                                        <option value="Hindi">Hindi</option>
+                                        </select>
+                                      </div>
+                                      <!-- Message input -->
+                                      <div class="mb-3">
+                                        <label class="form-label fw-bold" for="message">Notes</label>
+                                        <textarea class="form-control" id="message" type="text" placeholder="Any additional notes such as: formating, context, or anything else." style="height: 10rem;" name="message"></textarea>
+                                      </div>
+                                      <!-- Add File -->
+                                      <div class="py-3">
+                                        <label>
+                                          <span><b>Add file(s):</b> </span>
+                                          <input name="file" type="file" required/>
+                                        </label>
+                                      </div>
+                                      <!-- Form submit button -->
+                                      <div class="d-grid">
+                                        <button class="btn primary btn-lg SubmitButton" type="submit">Get Translation quote</button>
+                                      </div>
+                                    </form>
                               </div>
                             </div>
                       </div>
@@ -617,43 +657,81 @@ metaDesc: EA Translations is a professional translation agency that provides onl
             <div class="container" id="Contac">
               <div class="row">
                 <div class="col-12">
-                  <form id="contactForm" name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field">
-                    <p hidden>
-                      <label>
-                        Don’t fill this out if you’re human: <input name="bot-field" />
-                      </label>
-                    </p>
-                    <!-- Name input -->
-                    <div class="mb-3">
-                      <label class="form-label fw-bold" for="name">Name</label>
-                      <input class="form-control" id="name" type="text" placeholder="Name" name="name"/>
-                    </div>
-              
-                    <!-- Email address input -->
-                    <div class="mb-3">
-                      <label class="form-label fw-bold" for="emailAddress">Email Address</label>
-                      <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" name="email" />
-                    </div>
-              
-                    <!-- Message input -->
-                    <div class="mb-3">
-                      <label class="form-label fw-bold" for="message">Message</label>
-                      <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" name="message"></textarea>
-                    </div>
+                  <form id="contactForm" name="contact" method="POST" data-netlify="true"   netlify-honeypot="bot-field">
+                                      <p hidden>
+                                        <label>
+                                          Don’t fill this out if you’re human: <input name="bot-field" />
+                                        </label>
+                                      </p>
+                                      <!-- Name input -->
+                                      <div class="mb-3">
+                                        <label class="form-label fw-bold" for="name">Name</label>
+                                        <input class="form-control" id="name" type="text" placeholder="Name" name="name" required/>
+                                      </div>
+                                      <!-- Email address input -->
+                                      <div class="mb-3">
+                                        <label class="form-label fw-bold" for="emailAddress">Email Address</label>
+                                        <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" name="email" required/>
+                                      </div>
+                                      <!-- Lang input -->
 
-                    <div class="py-3">
-                      <label>
-                        <span>Add file:</span>
-                        <input name="file" type="file"/>
-                      </label>
-                    </div>
-              
-                    <!-- Form submit button -->
-                    <div data-netlify-recaptcha="true"></div>
-                    <div class="d-grid">
-                      <button class="btn primary btn-lg" type="submit">Submit</button>
-                    </div>
-                  </form>
+                                      <div class="mb-3">
+                                        <label class="form-label fw-bold" for="SL">Source Language</label>
+                                        <select class="form-select" id="SL" aria-label="Default select example" name="SL[]"  required>
+                                        <option value="">Select a language</option>
+                                        <option value="English">English</option>
+                                        <option value="Spanish">Spanish</option>
+                                        <option value="Arabic">Arabic</option>
+                                        <option value="French">French</option>
+                                        <option value="German">German</option>
+                                        <option value="Japanese">Japanese</option>
+                                        <option value="Korean">Korean</option>
+                                        <option value="Simplified chinese">Simplified chinese</option>
+                                        <option value="Italian">Italian</option>
+                                        <option value="Swedish">Swedish</option>
+                                        <option value="Norwegian">Norwegian</option>
+                                        <option value="Portuguese">Portuguese</option>
+                                        <option value="Russian">Russian</option>
+                                        <option value="Hindi">Hindi</option>
+                                        </select>
+                                      </div>
+                                      <div class="mb-3">
+                                        <label class="form-label fw-bold" for="TL" >Target Language</label>
+                                        <select class="form-select" id="TL" aria-label="Default select example" name="TL[]"  required>
+                                        <option value="">Select a language</option>
+                                        <option value="English">English</option>
+                                        <option value="Spanish">Spanish</option>
+                                        <option value="Arabic">Arabic</option>
+                                        <option value="French">French</option>
+                                        <option value="German">German</option>
+                                        <option value="Japanese">Japanese</option>
+                                        <option value="Korean">Korean</option>
+                                        <option value="Simplified chinese">Simplified chinese</option>
+                                        <option value="Italian">Italian</option>
+                                        <option value="Swedish">Swedish</option>
+                                        <option value="Norwegian">Norwegian</option>
+                                        <option value="Portuguese">Portuguese</option>
+                                        <option value="Russian">Russian</option>
+                                        <option value="Hindi">Hindi</option>
+                                        </select>
+                                      </div>
+                                      <!-- Message input -->
+                                      <div class="mb-3">
+                                        <label class="form-label fw-bold" for="message">Notes</label>
+                                        <textarea class="form-control" id="message" type="text" placeholder="Any additional notes such as: formating, context, or anything else." style="height: 10rem;" name="message"></textarea>
+                                      </div>
+                                      <!-- Add File -->
+                                      <div class="py-3">
+                                        <label>
+                                          <span><b>Add file(s):</b> </span>
+                                          <input name="file" type="file" required/>
+                                        </label>
+                                      </div>
+                                      <!-- Form submit button -->
+                                      <div class="d-grid">
+                                        <button class="btn primary btn-lg SubmitButton" type="submit">Get Translation quote</button>
+                                      </div>
+                                    </form>
                 </div>
               </div>
             </div>

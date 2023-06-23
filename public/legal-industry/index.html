@@ -217,7 +217,8 @@
 
                                       <div class="mb-3">
                                         <label class="form-label fw-bold" for="SL">Source Language</label>
-                                        <select class="form-select" aria-label="Default select example">
+                                        <select class="form-select" id="SL" aria-label="Default select example" name="SL[]"  required>
+                                        <option value="">Select a language</option>
                                         <option value="English">English</option>
                                         <option value="Spanish">Spanish</option>
                                         <option value="Arabic">Arabic</option>
@@ -231,11 +232,13 @@
                                         <option value="Norwegian">Norwegian</option>
                                         <option value="Portuguese">Portuguese</option>
                                         <option value="Russian">Russian</option>
+                                        <option value="Hindi">Hindi</option>
                                         </select>
                                       </div>
                                       <div class="mb-3">
-                                        <label class="form-label fw-bold" for="TL">Target Language</label>
-                                        <select class="form-select" aria-label="Default select example">
+                                        <label class="form-label fw-bold" for="TL" >Target Language</label>
+                                        <select class="form-select" id="TL" aria-label="Default select example" name="TL[]"  required>
+                                        <option value="">Select a language</option>
                                         <option value="English">English</option>
                                         <option value="Spanish">Spanish</option>
                                         <option value="Arabic">Arabic</option>
@@ -249,6 +252,7 @@
                                         <option value="Norwegian">Norwegian</option>
                                         <option value="Portuguese">Portuguese</option>
                                         <option value="Russian">Russian</option>
+                                        <option value="Hindi">Hindi</option>
                                         </select>
                                       </div>
                                       <!-- Message input -->
