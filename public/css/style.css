@@ -639,3 +639,32 @@ p{
 
     }
 }
+
+#thankyouSection{
+    min-height: 90vh;
+    background-image: url(../img/LandingBackground.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#thankyouSection h1{
+    padding-top: 20vh;
+    padding-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+#thankyouSection p{
+    padding-bottom: 1.5rem;
+}
+
+#thankyouSection button{
+    background-color: #2487CE;
+    color: white;
+    border-radius: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-bottom: 2rem;
+    font-size: 1.25rem;
+}
