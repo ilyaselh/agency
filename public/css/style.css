@@ -668,3 +668,7 @@ p{
     margin-bottom: 2rem;
     font-size: 1.25rem;
 }
+
+li {
+    padding-bottom: 0.75rem;
+}
