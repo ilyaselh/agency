@@ -25,5 +25,8 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Order Number", name: "orderNum", widget: "string"}
-      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Title + Order", name: "title", widget: "string"}
+      - {label: "Order", name: "orderNum", widget: "string"}
+      - {label: "Original Document", name: "doc", widget: "string"}
+      - {label: "Source Language", name: "sl", widget: "string"}
+      - {label: "Target Language", name: "tl", widget: "string"}

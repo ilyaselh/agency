@@ -1,6 +1,6 @@
 ---
-title: test title
-orderNum: test order num
+title: order 1256 - checkout
+orderNum: order 1256
 metaDesc: testmeta
 
 ---
