@@ -18,3 +18,12 @@ collections:
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Image Alt", name: "alt", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "orders"
+    label: "Orders"
+    folder: "src/orders"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Order Number", name: "orderNum", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
