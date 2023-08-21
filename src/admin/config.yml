@@ -30,3 +30,4 @@ collections:
       - {label: "Original Document", name: "doc", widget: "string"}
       - {label: "Source Language", name: "sl", widget: "string"}
       - {label: "Target Language", name: "tl", widget: "string"}
+      - {label: "Price", name: "price", widget: "string"}

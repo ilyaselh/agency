@@ -3,10 +3,132 @@
 ---
 
     <div class="container">
-        <h1>{{orderNum}}</h1>
-        <h1>{{doc}}</h1>
-        <h1>{{sl}}</h1>
-        <h1>{{tl}}</h1>
+        <div class="row mt-5">
+            <div class="col-md">
+                <h2 class="card-title">Billing information</h2>
+                <br>
+                <form id="checkoutForm" name="checkout-form" method="POST" data-netlify="true" action="/Success" netlify-honeypot="bot-field">
+                    <p hidden>
+                    <label>
+                        Don’t fill this out if you’re human: <input name="bot-field" />
+                    </label>
+                    </p>
+                    <!-- Name input -->
+                    <div class="mb-3">
+                    <label class="form-label fw-bold" for="name">Full name</label>
+                    <input class="form-control" id="name" type="text" placeholder="Name" name="name" required/>
+                    </div>
+                    <!-- Email address input -->
+                    <div class="mb-3">
+                    <label class="form-label fw-bold" for="emailAddress">Email Address</label>
+                    <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" name="email" required/>
+                    </div>
+                    <!-- Country -->
+                    <div class="mb-3">
+                    <label class="form-label fw-bold" for="country">Country</label>
+                    <select class="form-select" aria-label="Default select example" name="country" id="country" required>
+                        <option selected>Select country</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    </div>
+                </form>
+                <br>
+                <h2>Payment method</h2>
+
+                <div>
+                    <!-- Replace "test" with your own sandbox Business account app client ID -->
+                    <script src="https://www.paypal.com/sdk/js?client-id=AalrzE9C9_ySpkXXZHer-MJqMLQHqn02BPon3oYSpvpeWKBji89-nlWsIKOpwJFilW8UNWVZ0OpcLYvI&currency=USD"></script>
+                    <!-- Set up a container element for the button -->
+                    <div id="paypal-button-container"></div>
+                    <script>
+                    paypal.Buttons({
+                        // Order is created on the server and the order id is returned
+                        createOrder() {
+                        return fetch("/my-server/create-paypal-order", {
+                            method: "POST",
+                            headers: {
+                            "Content-Type": "application/json",
+                            },
+                            // use the "body" param to optionally pass additional order information
+                            // like product skus and quantities
+                            body: JSON.stringify({
+                            cart: [
+                                {
+                                sku: "YOUR_PRODUCT_STOCK_KEEPING_UNIT",
+                                quantity: "YOUR_PRODUCT_QUANTITY",
+                                },
+                            ],
+                            }),
+                        })
+                        .then((response) => response.json())
+                        .then((order) => order.id);
+                        },
+                        // Finalize the transaction on the server after payer approval
+                        onApprove(data) {
+                        return fetch("/my-server/capture-paypal-order", {
+                            method: "POST",
+                            headers: {
+                            "Content-Type": "application/json",
+                            },
+                            body: JSON.stringify({
+                            orderID: data.orderID
+                            })
+                        })
+                        .then((response) => response.json())
+                        .then((orderData) => {
+                            // Successful capture! For dev/demo purposes:
+                            console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+                            const transaction = orderData.purchase_units[0].payments.captures[0];
+                            alert(`Transaction ${transaction.status}: ${transaction.id}\n\nSee console for all available details`);
+                            // When ready to go live, remove the alert and show a success message within this page. For example:
+                            // const element = document.getElementById('paypal-button-container');
+                            // element.innerHTML = '<h3>Thank you for your payment!</h3>';
+                            // Or go to another URL:  window.location.href = 'thank_you.html';
+                        });
+                        }
+                    }).render('#paypal-button-container');
+                    </script>
+                </div>
+            </div>
+
+            <div class="col-md justify-content-end">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Order Details</h4>
+                            <div class="row">
+                                <div class="col">
+                                    <h6>1 x Translated {{ doc }} from {{ sl }} into {{ tl }}</h6>
+                                    <p>description</p>
+                                </div>
+                                <div class="col text-end">
+                                    <h6>$19.95</h6>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col">
+                                    <h6>1 x Certificate of accurate translation</h6>
+                                    <p>description</p>
+                                </div>
+                                <div class="col text-end">
+                                    <h6>$0.00</h6>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col">
+                                    <h5>Total Price</h5>
+                                </div>
+                                <div class="col text-end">
+                                    <h5>$19.95</h5>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
