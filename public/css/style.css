@@ -1,3 +1,25 @@
+:root{
+    --mainColor100: #e6eefe;
+    --mainColor200: ;
+    --mainColor300: #7ba3fc;
+    --mainColor400: ;
+    --mainColor500: #195eeb;
+    --mainColor600: ;
+    --mainColor700: #003292;
+    --mainColor800: #002267;
+    --mainColor900: #031133;
+
+    --neutralColor100: #f4f6fa;
+    --neutralColor200: #c2c8d2;
+    --neutralColor300: #8e98a8;
+    --neutralColor400: ;
+    --neutralColor500: #505b74;
+    --neutralColor600: ;
+    --neutralColor700: #263248;
+    --neutralColor800: #172337;
+    --neutralColor900: ;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -63,8 +85,21 @@ nav .active{
 
 nav .navbar-brand{
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #124265 !important;
+}
+
+@media only screen and (max-width: 600px){
+    #navbar{
+        border-bottom: 0px;
+
+        .navbar-toggler{
+            border: 0px;
+        }
+        img{
+            height: 2.5rem;
+        }
+    }
 }
 /* Hero */ 
 
@@ -90,7 +125,13 @@ nav .navbar-brand{
     margin-bottom: 1rem;
     font-weight: 600;
     font-size: 3rem;
+    color: var(--mainColor900);
 }
+
+#Hero h2{
+    color: var(--neutralColor500);
+}
+
 #Hero h4{
     margin-bottom: 3rem;
 }
@@ -101,6 +142,7 @@ nav .navbar-brand{
 
 #Hero h5{
     font-weight: 600;
+    color: var(--mainColor900);
 }
 
 p{
@@ -113,7 +155,7 @@ p{
     padding-right: 2rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    background-color: #2487CE;
+    background-color: #1A5EEC;
     color: white;
     font-weight: 600;
 }
@@ -140,7 +182,7 @@ p{
 
 #Hero .icon{
     margin-bottom: 1rem !important;
-    color: #2487CE;
+    color: var(--mainColor500);
 }
 
 /* About */ 
@@ -158,6 +200,7 @@ p{
 
 #About h1{
     font-weight: 600;
+    color: var(--mainColor900);
 }
 
 #About button{
@@ -166,9 +209,9 @@ p{
     padding-right: 2rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    background-color: color;
+    background-color: var(--mainColor500);
     border: #2487CE solid 0.15rem;
-    color: #2487CE !important;
+    color: white;
     font-weight: 600;
 }
 
@@ -196,12 +239,14 @@ p{
 #HowItWorks h1{
     font-weight: 600;
     padding-bottom: 2rem;
+    color: var(--mainColor900);
 }
 
 #HowItWorks h2{
     font-size: 1.1rem;
     font-weight: 500;
     padding-bottom: 4rem;
+    color: var(--mainColor800);
 }
 
 #HowItWorks .note{
@@ -210,7 +255,7 @@ p{
 }
 
 #HowItWorks .icon{
-    color: #2487CE;
+    color: var(--mainColor500);
     padding-bottom: 2rem;
     font-size: 1.75rem;
 }
@@ -264,7 +309,7 @@ p{
 }
 
 #Services .icon{
-    color: #2487CE;
+    color: var(--mainColor500);
 }
 
 /* Industries */ 
@@ -310,7 +355,7 @@ p{
 }
 
 #Industries .icon{
-    color: #2487CE;
+    color: var(--mainColor500);
 }
 /* Contact */ 
 
@@ -328,10 +373,11 @@ p{
 
 #Contact h1{
     font-weight: 600;
+    color: var(--mainColor900);
 }
 
 #Contact h4{
-    color: #124265;
+    color: var(--mainColor800);
     font-weight: 600;
 }
 
@@ -345,7 +391,7 @@ p{
     padding-right: 2rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    background-color: #2487CE;
+    background-color: var(--mainColor500);
     color: white;
     font-weight: 600;
 }
@@ -355,7 +401,7 @@ p{
 }
 
 #Contact i{
-    color: #2487CE !important;
+    color: var(--mainColor500) !important;
     padding-right: 1rem;
 }
 
@@ -499,8 +545,8 @@ p{
 
 
 .translationService #MainPar{
-    font-size: 1.25rem !important;
-    color: #7f7f7f !important;
+    font-size: 1.25rem;
+    color: #7f7f7f ;
     padding-bottom: 2rem !important;
     
 }
@@ -589,7 +635,7 @@ p{
 
 
 .translationService #LandingPageHowItWorks{
-    min-height: 85vh;
+    padding-bottom: 5rem;
 }
 
 .translationService #LandingPageForm{
@@ -598,10 +644,13 @@ p{
 
 .translationService #LandingPageReviews{
     min-height: 75vh;
+    .card{
+        min-height: 15rem;
+    }
 }
 
 .translationService #Contac{
-    background-color: #f7f7f7;
+    background-color: var(--neutralColor100);
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 1rem;
@@ -639,7 +688,7 @@ p{
 @media only screen and (max-width: 600px){
     .translationService h1{
         font-weight: 900;
-        font-size: 2.35rem;
+        font-size: 2.986rem;
         padding-top: 3rem;
         padding-bottom: 2rem;
         padding-left: 1rem;
@@ -648,14 +697,14 @@ p{
     
     .translationService .CtaButton{
         border-radius: 0.5rem;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
         padding-left: 3rem;
         padding-right: 3rem;
         margin-bottom: 2rem;
         transition: transform .35s;
-        width: 80%;
-        font-size: 1.25rem;
+        font-size: 1rem;
+        height: 44px;
+        display: inline-flex;
+        align-items: center;
     }
     
     .translationService .CtaButton:hover{
@@ -681,13 +730,110 @@ p{
     }
 
     .translationService p{
-        font-size: 1.2rem;
+        font-size: 1rem !important;
+        
     }
 
     .translationService #MainPar{
         padding-left: 1rem;
         padding-right: 1rem;
 
+    }
+
+    .translationService #LandingPageSection1{
+        p{
+            text-align: start !important;
+            color: var(--neutralColor800);
+        }
+
+        h1{
+            text-align: start !important;
+        }
+    } 
+
+    .translationService #LandingPageHowItWorks{
+        p{
+            text-align: start !important;
+            color: var(--neutralColor800);
+        }
+
+        h2{
+            font-size: 2.488rem !important;
+        }
+    }
+
+    .translationService #LandingPageAd1{
+        h2{
+            font-size: 2.488rem !important;
+        }  
+        h3{
+            font-size: 2.074rem !important; 
+            color: var(--neutralColor700);
+        }
+        h6{
+            display: inline;
+        }
+        p{
+            text-align: start !important;
+            color: var(--neutralColor800);
+        }
+        i{
+            display: inline;
+        }
+    }
+
+    .translationService #LandingPageAd2{
+        h2{
+            font-size: 2.488rem !important;
+        } 
+        h6{
+            font-size: 1.2rem;
+        } 
+        p{
+            text-align: start !important;
+            color: var(--neutralColor800);
+        }
+        .myRow{
+            background-color: var(--neutralColor100);
+            margin-left: 1rem !important;
+            margin-right: 1rem !important;
+            border-radius: 0.5rem;
+            border: solid 0.15rem;
+            border-color: #B3CBFF;
+        
+        }
+    }
+
+    .translationService #LandingPageReviews{
+        h2{
+            font-size: 2.488rem !important;
+        } 
+        p{
+            text-align: start !important;
+            color: var(--neutralColor800);
+        }
+    }
+
+    .translationService #LandingPageFaq{
+        h2{
+            font-size: 2.488rem !important;
+        } 
+        h6{
+            font-size: 1.2rem;
+        } 
+    }
+
+    .translationService #LandingPageForm{
+        h2{
+            font-size: 2.488rem !important;
+        } 
+        h3{
+            font-size: 2.074rem !important;
+        }
+        p{
+            text-align: start !important;
+            color: var(--neutralColor800);
+        }
     }
 }
 
@@ -725,5 +871,12 @@ li {
     #thankyouSection{
         padding-left: 2rem;
         padding-right: 2rem;
+        p{
+            padding-bottom: 0rem !important;
+            margin-bottom: 0rem;
+        }
+        button{
+            margin-top: 3rem;
+        }
     }
 }
