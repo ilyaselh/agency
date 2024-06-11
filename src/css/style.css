@@ -4,7 +4,7 @@
     --mainColor300: #7ba3fc;
     --mainColor400: ;
     --mainColor500: #195eeb;
-    --mainColor600: ;
+    --mainColor600: #0045be;
     --mainColor700: #003292;
     --mainColor800: #002267;
     --mainColor900: #031133;
@@ -87,6 +87,38 @@ nav .navbar-brand{
     font-weight: 600;
     font-size: 1rem;
     color: #124265 !important;
+    scale: 55%;
+}
+
+nav img{
+    scale: 55%;
+}
+nav .CtaButton{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.35rem;
+    background-color: #1A5EEC;
+    color: white;
+    font-weight: 600;
+}
+
+nav .CtaButton:hover{
+    color: white !important;
+    background-color: var(--mainColor600);
+}
+
+nav .CtaButton2{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.35rem;
+    background-color: #ebebeb;
+    transition: transform .35s;
+    color: rgb(116, 116, 116);
+    font-weight: 600;
 }
 
 @media only screen and (max-width: 600px){
@@ -99,8 +131,97 @@ nav .navbar-brand{
         img{
             height: 2.5rem;
         }
+        nav .navbar-brand{
+            font-weight: 600;
+            font-size: 1rem;
+            color: #124265 !important;
+            scale: 100%;
+        }
     }
 }
+
+/* Order Nav */
+
+.stepper-wrapper {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: auto;
+  }
+  .stepper-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+  
+    @media (max-width: 768px) {
+      font-size: 12px;
+    }
+  }
+  
+  .stepper-item::before {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid #ccc;
+    width: 100%;
+    top: 10px;
+    left: -50%;
+    z-index: 2;
+  }
+  
+  .stepper-item::after {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid #ccc;
+    width: 100%;
+    top: 10px;
+    left: 50%;
+    z-index: 2;
+  }
+  
+  .stepper-item .step-counter {
+    position: relative;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #ccc;
+    margin-bottom: 6px;
+  }
+  
+  .stepper-item.active {
+    font-weight: bold;
+  }
+  
+  .stepper-item.active .step-counter{
+    background-color: var(--mainColor300);
+  }
+
+  .stepper-item.completed .step-counter {
+    background-color: var(--mainColor500);
+  }
+  
+  .stepper-item.completed::after {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid var(--mainColor300);
+    width: 100%;
+    top: 10px;
+    left: 50%;
+    z-index: 3;
+  }
+  
+  .stepper-item:first-child::before {
+    content: none;
+  }
+  .stepper-item:last-child::after {
+    content: none;
+  }
+
 /* Hero */ 
 
 #Hero{
@@ -576,7 +697,7 @@ p{
     padding-right: 3rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    border-radius: 0rem;
+    border-radius: 0.35rem;
     background-color: #1A5EEC;
     margin-bottom: 2rem;
     transition: transform .35s;
@@ -589,7 +710,7 @@ p{
     padding-right: 3rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    border-radius: 5rem;
+    border-radius: 0.35rem;
     background-color: #ebebeb;
     margin-bottom: 2rem;
     transition: transform .35s;
@@ -703,8 +824,10 @@ p{
         transition: transform .35s;
         font-size: 1rem;
         height: 44px;
+        min-width: 220px;
         display: inline-flex;
         align-items: center;
+        justify-content: center;
     }
     
     .translationService .CtaButton:hover{
@@ -713,20 +836,19 @@ p{
     }
     
     .translationService .CtaButton2{
-        border-radius: 5rem;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+        border-radius: 0.5rem;
         padding-left: 3rem;
         padding-right: 3rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
         transition: transform .35s;
-        width: 80%;
-        font-size: 1.25rem;
+        font-size: 1rem;
+        height: 44px;
+        display: inline-flex;
+        align-items: center;
     }
     
     .translationService .CtaButton2:hover{
         transform: scale(1.1); 
-        color: white !important;
     }
 
     .translationService p{
@@ -878,5 +1000,22 @@ li {
         button{
             margin-top: 3rem;
         }
+    }
+}
+
+
+/* Order page */
+
+.orderPage{
+    .firstCol{}
+    .secCol{
+        background-color: var(--neutralColor100);
+    }
+
+    h6{
+        font-size: 1.25rem;
+    }
+    p{
+        font-size: 1rem;
     }
 }
