@@ -827,6 +827,7 @@ p{
         font-size: 1rem;
         font-weight: 500;
         background-color: var(--mainColor500);
+        width: 250px;
     }
     
     .translationService .CtaButton:hover{
@@ -838,9 +839,9 @@ p{
         border-radius: 0.25rem;
         transition: transform .35s;
         font-size: 1rem;
-        display: inline-flex;
-        align-items: center;
         font-weight: 500;
+        width: 250px;
+
     }
     
     .translationService .CtaButton2:hover{
@@ -859,7 +860,7 @@ p{
     }
 
     .translationService #LandingPageSection1{
-        background-image: url('../img/LandingBackground.png');
+        /* background-image: url('../img/LandingBackground.png'); */
         background-size: cover; /* Makes sure the background covers the entire container */
         background-position: center; /* Centers the image */
         background-repeat: no-repeat; /* Ensures the image doesn't repeat */
