@@ -760,7 +760,7 @@ p{
 }
 
 .translationService #LandingPageForm{
-    min-height: 100vh;
+
 }
 
 .translationService #LandingPageReviews{
@@ -804,6 +804,20 @@ p{
     border: 2px solid #E7EDFF;
     margin-bottom: 1.5rem;
     padding: 1rem
+}
+
+.translationService {
+    #quoteForm {
+        opacity: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: opacity 0.5s ease, max-height 0.5s ease;
+      }
+      
+      #quoteForm.show {
+        opacity: 1;
+        max-height: 1000px; /* Adjust to fit the form’s height */
+      }
 }
 
 @media only screen and (max-width: 600px){
@@ -950,6 +964,8 @@ p{
     }
 
     .translationService #LandingPageForm{
+        height: fit-content;
+
         h2{
             font-size: 2.488rem !important;
         } 
