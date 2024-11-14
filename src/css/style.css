@@ -266,11 +266,11 @@ nav .CtaButton2{
     color: var(--mainColor900);
 }
 
-p{
-    font-size: 1rem;
+#Hero p{
+    font-size: 0.8rem;
 }
 
-#Hero button{
+#Hero .CtaButton{
     margin-bottom: 5rem;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -279,6 +279,18 @@ p{
     background-color: #1A5EEC;
     color: white;
     font-weight: 600;
+}
+
+#Hero .CtaButton2{
+    background-color: #ebebeb;   
+    margin-bottom: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    font-weight: 600;
+    color: rgb(116, 116, 116);
 }
 
 #Hero .card-text{
@@ -971,6 +983,16 @@ p{
             text-align: start !important;
             color: var(--neutralColor800);
         }
+    }
+
+    #Hero .CtaButton{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    #Hero .CtaButton2{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+
     }
 }
 
