@@ -30,14 +30,14 @@ metaDesc: Get Professional translation services for documents, websites, user ma
             <div class="container text-start d-md-none">
               <div class="row text-center">
                
-                <div class="col-md text-center px-auto">
+                <div class="col-md text-start px-auto">
                   <a href="http://order.eatranslations.com">
-                    <button type="button" class="btn CtaButton text-center  py-2">Start Order</button>
+                    <button type="button" class="btn CtaButton text-center ">Start Order</button>
                   </a>
                 </div>
-                 <div class="col-md text-center">
+                 <div class="col-md text-start">
                   <a href="#LandingPageForm">
-                    <button type="button" class="btn CtaButton2 text-center py-2">Get a Quote</button>
+                    <button type="button" class="btn CtaButton2 text-center ">Get a Quote</button>
                   </a>
                 </div>
               </div>
@@ -299,111 +299,111 @@ metaDesc: Get Professional translation services for documents, websites, user ma
         </div>
 
         <div class="first" id="LandingPageForm">
-  <div class="container pb-5">
-    <h2 class="text-center pt-5 pb-3">Start Your Order</h2>
+          <div class="container pb-5">
+            <h2 class="text-center pt-5 pb-3">Start Your Order</h2>
 
-    <div class="row">
-      <!-- Left column: Features list -->
-      <div class="col-md-6">
-        <p>Our certified translation features:</p>
-        <ul>
-          <li><i class="fa-solid fa-check"></i> A signed certification of accuracy, included with your translation</li>
-          <li><i class="fa-solid fa-check"></i> Translated by a professional certified translator</li>
-          <li><i class="fa-solid fa-check"></i> Delivery starts at 24 hours</li>
-          <li><i class="fa-solid fa-check"></i> Up to 250 words per page</li>
-          <li><i class="fa-solid fa-check"></i> Revisions & proofreading included free of charge</li>
-          <li><i class="fa-solid fa-check"></i> USCIS acceptance guaranteed</li>
-        </ul>
-      </div>
+            <div class="row">
+              <!-- Left column: Features list -->
+              <div class="col-md-6">
+                <p>Our certified translation features:</p>
+                <ul>
+                  <li><i class="fa-solid fa-check"></i> A signed certification of accuracy, included with your translation</li>
+                  <li><i class="fa-solid fa-check"></i> Translated by a professional certified translator</li>
+                  <li><i class="fa-solid fa-check"></i> Delivery starts at 24 hours</li>
+                  <li><i class="fa-solid fa-check"></i> Up to 250 words per page</li>
+                  <li><i class="fa-solid fa-check"></i> Revisions & proofreading included free of charge</li>
+                  <li><i class="fa-solid fa-check"></i> USCIS acceptance guaranteed</li>
+                </ul>
+              </div>
 
-      <!-- Right column: CTA buttons -->
-      <div class="col-md-6 text-center">
-        <a href="http://order.eatranslations.com">
-          <button type="button" class="btn CtaButton text-center py-2 mb-3">Start Your Order</button>
-        </a>
-        <button type="button" class="btn CtaButton2 text-center py-2 mb-3" onclick="toggleForm()">Get a Quote</button>
-      </div>
-    </div>
+              <!-- Right column: CTA buttons -->
+              <div class="col-md-6 text-center">
+                <a href="http://order.eatranslations.com">
+                  <button type="button" class="btn CtaButton text-center py-2 mb-3">Start Your Order</button>
+                </a>
+                <button type="button" class="btn CtaButton2 text-center py-2 mb-3" onclick="toggleForm()">Get a Quote</button>
+              </div>
+            </div>
 
-    <!-- Hidden form, only visible when "Get a Quote" is clicked -->
-    <div class="row mt-4" id="quoteForm" style="display: none;">
-      <div class="col-md-12">
-        <div class="container-full">
-          <div class="row">
-            <div class="col-12">
-              <form id="contactForm" name="contact-translationServices" method="POST" data-netlify="true" action="/Success" netlify-honeypot="bot-field">
-                <p hidden>
-                  <label>
-                    Don’t fill this out if you’re human: <input name="bot-field" />
-                  </label>
-                </p>
+            <!-- Hidden form, only visible when "Get a Quote" is clicked -->
+            <div class="row mt-4" id="quoteForm" style="display: none;">
+              <div class="col-md-12">
+                <div class="container-full">
+                  <div class="row">
+                    <div class="col-12">
+                      <form id="contactForm" name="contact-translationServices" method="POST" data-netlify="true" action="/Success" netlify-honeypot="bot-field">
+                        <p hidden>
+                          <label>
+                            Don’t fill this out if you’re human: <input name="bot-field" />
+                          </label>
+                        </p>
 
-                <!-- Form Title -->
-                <h3 class="text-center">Order a Quote</h3>
+                        <!-- Form Title -->
+                        <h3 class="text-center">Order a Quote</h3>
 
-                <!-- Name Input -->
-                <div class="mb-3">
-                  <label class="form-label fw-bold" for="name">Name</label>
-                  <input class="form-control" id="name" type="text" placeholder="Name" name="name" required />
+                        <!-- Name Input -->
+                        <div class="mb-3">
+                          <label class="form-label fw-bold" for="name">Name</label>
+                          <input class="form-control" id="name" type="text" placeholder="Name" name="name" required />
+                        </div>
+
+                        <!-- Email Input -->
+                        <div class="mb-3">
+                          <label class="form-label fw-bold" for="emailAddress">Email Address</label>
+                          <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" name="email" required />
+                        </div>
+
+                        <!-- Source Language Input -->
+                        <div class="mb-3">
+                          <label class="form-label fw-bold" for="Source-Language[]">Source Language</label>
+                          <select class="form-select" id="SL" name="Source-Language[]" required>
+                            <option value="" disabled selected>Select a language</option>
+                            <!-- List of languages -->
+                            <option value="Arabic">Arabic</option>
+                            <option value="Afrikaans">Afrikaans</option>
+                            <!-- ...other languages... -->
+                          </select>
+                        </div>
+
+                        <!-- Target Language Input -->
+                        <div class="mb-3">
+                          <label class="form-label fw-bold" for="Target-Language[]">Target Language</label>
+                          <select class="form-select" id="TL" name="Target-Language[]" required>
+                            <option value="" disabled selected>Select a language</option>
+                            <!-- List of languages -->
+                            <option value="English">English</option>
+                            <option value="Spanish">Spanish</option>
+                            <!-- ...other languages... -->
+                          </select>
+                        </div>
+
+                        <!-- Notes Input -->
+                        <div class="mb-3">
+                          <label class="form-label fw-bold" for="message">Notes</label>
+                          <textarea class="form-control" id="message" name="message" placeholder="Any additional notes such as formatting, context, or anything else." style="height: 5rem;"></textarea>
+                        </div>
+
+                        <!-- File Upload -->
+                        <div class="py-3">
+                          <label>
+                            <span><b>Add file(s):</b></span>
+                            <input name="file" type="file" required />
+                          </label>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="d-grid">
+                          <button class="btn btn-primary btn-lg SubmitButton" type="submit">Get Quote</button>
+                        </div>
+
+                      </form>
+                    </div>
+                  </div>
                 </div>
-
-                <!-- Email Input -->
-                <div class="mb-3">
-                  <label class="form-label fw-bold" for="emailAddress">Email Address</label>
-                  <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" name="email" required />
-                </div>
-
-                <!-- Source Language Input -->
-                <div class="mb-3">
-                  <label class="form-label fw-bold" for="Source-Language[]">Source Language</label>
-                  <select class="form-select" id="SL" name="Source-Language[]" required>
-                    <option value="" disabled selected>Select a language</option>
-                    <!-- List of languages -->
-                    <option value="Arabic">Arabic</option>
-                    <option value="Afrikaans">Afrikaans</option>
-                    <!-- ...other languages... -->
-                  </select>
-                </div>
-
-                <!-- Target Language Input -->
-                <div class="mb-3">
-                  <label class="form-label fw-bold" for="Target-Language[]">Target Language</label>
-                  <select class="form-select" id="TL" name="Target-Language[]" required>
-                    <option value="" disabled selected>Select a language</option>
-                    <!-- List of languages -->
-                    <option value="English">English</option>
-                    <option value="Spanish">Spanish</option>
-                    <!-- ...other languages... -->
-                  </select>
-                </div>
-
-                <!-- Notes Input -->
-                <div class="mb-3">
-                  <label class="form-label fw-bold" for="message">Notes</label>
-                  <textarea class="form-control" id="message" name="message" placeholder="Any additional notes such as formatting, context, or anything else." style="height: 5rem;"></textarea>
-                </div>
-
-                <!-- File Upload -->
-                <div class="py-3">
-                  <label>
-                    <span><b>Add file(s):</b></span>
-                    <input name="file" type="file" required />
-                  </label>
-                </div>
-
-                <!-- Submit Button -->
-                <div class="d-grid">
-                  <button class="btn btn-primary btn-lg SubmitButton" type="submit">Get Quote</button>
-                </div>
-
-              </form>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
 
     </div>
     <script>
