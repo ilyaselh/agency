@@ -678,7 +678,6 @@ nav .CtaButton2{
 
 
 .translationService #MainPar{
-    font-size: 1.25rem;
     color: #7f7f7f ;
     padding-bottom: 2rem !important;
     
@@ -853,7 +852,7 @@ nav .CtaButton2{
         font-size: 1rem;
         font-weight: 500;
         background-color: var(--mainColor500);
-        width: 65%;
+        width: 100%;
         padding-top: 0.65rem !important;
         padding-bottom: 0.65rem !important;
     }
@@ -868,7 +867,7 @@ nav .CtaButton2{
         transition: transform .35s;
         font-size: 1rem;
         font-weight: 500;
-        width: 65%;
+        width: 100%;
         padding-top: 0.65rem !important;
         padding-bottom: 0.65rem !important;
     }
@@ -884,14 +883,15 @@ nav .CtaButton2{
     }
 
     .translationService #LandingPageSection1{
-        
+               
         p{
             text-align: start !important;
-            font-size: 1.1rem !important;
+            font-size: 1rem !important;
             color: var(--neutralColor800);
         }
 
         h1{
+            font-size: 2.2rem !important;
             text-align: start !important;
         }
     } 
