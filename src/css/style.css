@@ -64,7 +64,6 @@ color: #1A5EEC;
 /* navbar */ 
 
 #navbar{
-    border-bottom: 1px solid rgb(236, 236, 236);
     background-color: rgb(250, 250, 250);
 }
 
@@ -723,10 +722,11 @@ nav .CtaButton2{
     padding-bottom: 1rem;
     border-radius: 0.35rem;
     background-color: #ebebeb;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
     transition: transform .35s;
     color: rgb(116, 116, 116);
     font-weight: 600;
+
 }
 
 .translationService .CtaButton:hover{
@@ -761,7 +761,7 @@ nav .CtaButton2{
 }
 
 .translationService #LandingPageSection1{
-    min-height: 75vh;
+    padding-bottom: 7.5rem;
     border-bottom: 2px solid #B3CBFF;
 }
 
@@ -839,7 +839,7 @@ nav .CtaButton2{
     .translationService h1{
         font-weight: 700;
         font-size: 2.25rem;
-        padding-top: 3rem;
+        padding-top: 2rem;
         padding-bottom: 2rem;
         padding-left: 1rem;
         padding-right: 1rem;
@@ -883,16 +883,26 @@ nav .CtaButton2{
     }
 
     .translationService #LandingPageSection1{
-               
+        min-height: 100vh !important;
+        overflow: hidden; /* Prevent overflow */
         p{
             text-align: start !important;
             font-size: 1rem !important;
-            color: var(--neutralColor800);
+            color: #7f7f7f;
         }
 
         h1{
             font-size: 2.2rem !important;
             text-align: start !important;
+        }
+        img {
+            width: 50%; /* Make the image scale with the column width */
+            height: auto; /* Maintain the aspect ratio */
+        }
+        #landingImg{
+            display: flex;
+            justify-content: center; /* Center image horizontally */
+            align-items: center; /* Center image vertically */
         }
     } 
 
@@ -904,12 +914,14 @@ nav .CtaButton2{
 
         h2{
             font-size: 2.488rem !important;
+            font-weight: 500;
         }
     }
 
     .translationService #LandingPageAd1{
         h2{
             font-size: 2.488rem !important;
+            font-weight: 500;
         }  
         h3{
             font-size: 2.074rem !important; 
@@ -917,7 +929,6 @@ nav .CtaButton2{
         }
         h6{
             display: inline;
-            font-size: 0.825rem;
         }
         p{
             text-align: start !important;
@@ -925,6 +936,7 @@ nav .CtaButton2{
         }
         i{
             display: inline;
+            font-size: 1.5rem !important;
         }
     }
 
@@ -932,6 +944,8 @@ nav .CtaButton2{
         background-color: var(--neutralColor100);
         h2{
             font-size: 2.488rem !important;
+            font-weight: 500;
+
         } 
         h6{
             font-size: 1.2rem;
@@ -950,6 +964,8 @@ nav .CtaButton2{
     .translationService #LandingPageReviews{
         h2{
             font-size: 2.488rem !important;
+            font-weight: 500;
+
         } 
         p{
             text-align: start !important;
@@ -964,6 +980,8 @@ nav .CtaButton2{
     .translationService #LandingPageFaq{
         h2{
             font-size: 2.488rem !important;
+            font-weight: 500;
+
         } 
         h6{
             font-size: 1.2rem;
@@ -975,6 +993,8 @@ nav .CtaButton2{
 
         h2{
             font-size: 2.488rem !important;
+            font-weight: 500;
+
         } 
         h3{
             font-size: 2.074rem !important;
