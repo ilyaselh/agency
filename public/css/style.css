@@ -763,6 +763,45 @@ nav .CtaButton2{
 .translationService #LandingPageSection1{
     padding-bottom: 7.5rem;
     border-bottom: 2px solid #B3CBFF;
+
+    @media only screen and (min-width: 768px) {
+        .trust1{
+            width: 12rem;
+            margin-bottom: 1.75rem;
+        }
+        .trust2{
+            width:7rem;
+            margin-bottom: 1.35rem;
+        }
+        .trust3{
+            width: 5rem;
+            margin-bottom: 1.5rem;
+        }
+        .trustCol{
+            border-right: 1px solid rgb(180, 180, 180);
+            border-image: linear-gradient(to bottom, rgb(240, 240, 240) 5%, #b4b4b4 50%, rgb(240, 240, 240) 95%) 1;  
+        }
+    }
+    
+    @media only screen and (max-width: 768px) {
+        .trust1{
+            width: 12rem;
+            margin-bottom: 1.75rem;
+        }
+        .trust2{
+            width:7rem;
+            margin-bottom: 1.35rem;
+        }
+        .trust3{
+            width: 5rem;
+            margin-bottom: 1.5rem;
+        }
+        .trustCol{
+            border-bottom: 1px solid #b4b4b4;
+            border-image: linear-gradient(to left, rgb(240, 240, 240) 5%, #b4b4b4 50%, rgb(240, 240, 240) 95%) 1;
+            margin-bottom: 2rem;
+        }
+    }
 }
 
 
@@ -886,7 +925,6 @@ nav .CtaButton2{
         min-height: 100vh !important;
         overflow: hidden; /* Prevent overflow */
         p{
-            text-align: start !important;
             font-size: 1rem !important;
             color: #7f7f7f;
         }
