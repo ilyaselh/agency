@@ -1,6 +1,6 @@
-module.exports = function(eleventyConfig) {
-
+module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/css");
+  eleventyConfig.addPassthroughCopy("./src/fonts");
   eleventyConfig.addPassthroughCopy("./src/img");
   eleventyConfig.addPassthroughCopy("./src/js");
   eleventyConfig.addPassthroughCopy("./src/admin");
@@ -10,12 +10,11 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/robots.txt");
 
   eleventyConfig.ignores.add("**/node_modules/**");
-    // Return your Object options:
-    return {
-      dir: {
-        input: "src",
-        output: "public"
-      }
-    }
+  // Return your Object options:
+  return {
+    dir: {
+      input: "src",
+      output: "public",
+    },
   };
-
+};

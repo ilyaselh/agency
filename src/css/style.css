@@ -20,8 +20,15 @@
     --neutralColor900: ;
 }
 
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url('../fonts/Roboto-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-weight: 100 1000;
+    font-width: 75 100;
+}
+
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Regular';
 }
 
 img{
