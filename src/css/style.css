@@ -773,7 +773,7 @@ nav .CtaButton2{
 
     @media only screen and (min-width: 768px) {
         .trust1{
-            width: 12rem;
+            width: 15rem;
             margin-bottom: 1.75rem;
         }
         .trust2{
@@ -792,15 +792,15 @@ nav .CtaButton2{
     
     @media only screen and (max-width: 768px) {
         .trust1{
-            width: 12rem;
+            width: 8.5rem;
             margin-bottom: 1.75rem;
         }
         .trust2{
-            width:7rem;
+            width:4rem;
             margin-bottom: 1.35rem;
         }
         .trust3{
-            width: 5rem;
+            width: 3rem;
             margin-bottom: 1.5rem;
         }
         .trustCol{
@@ -840,6 +840,7 @@ nav .CtaButton2{
 
 .translationService p{
  color: #5e6b7b;
+ font-size: 1.2rem !important;
 }
 
 .translationService .SubmitButton{
@@ -877,6 +878,36 @@ nav .CtaButton2{
       }
 }
 
+.translationService #LandingPageLanguages{
+    p{
+        font-size: 1.2rem;
+        text-align: start !important;
+    }
+
+    h2{
+        font-size: 2.488rem !important;
+        font-weight: 500;
+    }
+
+    h5{
+        padding-top: 1rem;
+        font-size: 1rem !important;
+    }
+    img {
+        width: 25%; /* Desktop scale */
+    }
+    
+    @media (max-width: 768px) { /* Mobile devices */
+        img {
+            width: 50%; /* Mobile scale */
+        }
+    }
+
+    .card-body{
+        margin-bottom: 0rem;
+        padding-bottom: 0rem;
+    }
+}
 @media only screen and (max-width: 600px){
     .navbar-toggler {
         display: none !important;
@@ -932,7 +963,7 @@ nav .CtaButton2{
         min-height: 100vh !important;
         overflow: hidden; /* Prevent overflow */
         p{
-            font-size: 1rem !important;
+            font-size: 1.15rem !important;
             color: #7f7f7f;
         }
 
@@ -954,7 +985,6 @@ nav .CtaButton2{
     .translationService #LandingPageHowItWorks{
         p{
             text-align: start !important;
-            color: var(--neutralColor800);
         }
 
         h2{
@@ -977,7 +1007,6 @@ nav .CtaButton2{
         }
         p{
             text-align: start !important;
-            color: var(--neutralColor800);
         }
         i{
             display: inline;
@@ -997,7 +1026,6 @@ nav .CtaButton2{
         } 
         p{
             text-align: start !important;
-            color: var(--neutralColor800);
         }
         
         .card{
@@ -1014,7 +1042,6 @@ nav .CtaButton2{
         } 
         p{
             text-align: start !important;
-            color: var(--neutralColor800);
         }
         .card{
             box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
