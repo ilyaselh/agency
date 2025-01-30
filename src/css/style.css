@@ -839,11 +839,6 @@ nav .CtaButton2{
     border-color: #B3CBFF;
 }
 
-.translationService p{
- color: #5e6b7b;
- font-size: 1.2rem !important;
-}
-
 .translationService .SubmitButton{
     border-radius: 0.5rem;
     background-color: #1A5EEC;
@@ -881,7 +876,7 @@ nav .CtaButton2{
 
 .translationService #LandingPageLanguages{
     p{
-        font-size: 1.2rem;
+        font-size: 1rem;
         text-align: start !important;
     }
 
@@ -909,6 +904,75 @@ nav .CtaButton2{
         padding-bottom: 0rem;
     }
 }
+
+.translationService #LandingPageServices{
+    h2{}
+    h3{
+        font-weight: 600;
+        color: var(--mainColor800);
+    }
+    p{
+        font-size: 1rem;
+        font-weight: 400;
+       
+    }
+    .table-responsive {
+        padding: 0 15vw; /* Adds left and right padding on larger screens */
+      }
+      
+      @media (max-width: 1024px) {
+        .table-responsive {
+          padding: 0 10vw; /* Reduce padding for tablets */
+        }
+      }
+      
+      @media (max-width: 768px) {
+        .table-responsive {
+          padding: 0 5vw; /* Further reduce padding for smaller tablets */
+        }
+      }
+      
+      @media (max-width: 576px) {
+        .table-responsive {
+          display: none; /* Hide table on mobile */
+        }
+      }
+
+    /* Style for the second column */
+    .table tbody td:nth-child(2),
+    .table thead th:nth-child(2) {
+    background-color: var(--neutralColor100); /* Light gray background */
+    position: relative;
+    }
+
+    /* Round top corners of second column */
+    .table thead th:nth-child(2) {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+    padding-top: 3rem;
+
+    }
+
+    /* Round bottom corners of second column */
+    .table tbody tr:last-child td:nth-child(2) {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 3rem;
+
+    }
+    
+    .table thead tr, 
+    .table tbody tr {
+      border-bottom: 1px solid #ddd; /* Light gray border under each row */
+    }
+
+    .table tbody tr:last-child {
+        border-bottom: none; /* Remove bottom border from the last row */
+      }
+}
+
 @media only screen and (max-width: 600px){
     .navbar-toggler {
         display: none !important;
