@@ -682,6 +682,19 @@ nav .CtaButton2{
     background-color: white;
 }
 
+#UscisLandingImg img {
+    width: 75%;
+    height: 75%;
+    border-radius: 50% / 40%;
+    object-fit: cover;
+}
+
+#BirthLandingImg img {
+    width: 75%;
+    height: 75%;
+    border-radius: 50% / 40%;
+    object-fit: cover;
+}
 
 .translationService #MainPar{
     color: #7f7f7f ;
@@ -769,12 +782,15 @@ nav .CtaButton2{
 }
 
 .translationService #LandingPageSection1{
-    padding-bottom: 7.5rem;
+    padding-bottom: 5rem;
     border-bottom: 2px solid #B3CBFF;
 
     @media only screen and (min-width: 768px) {
+        .trustRow{
+            margin-top: 7rem !important;
+        }
         .trust1{
-            width: 15rem;
+            width: 12rem;
             margin-bottom: 1.75rem;
         }
         .trust2{
