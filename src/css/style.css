@@ -725,8 +725,8 @@ nav .CtaButton2{
 .translationService .CtaButton{
     padding-left: 3rem;
     padding-right: 3rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
     border-radius: 0.35rem;
     background-color: var(--mainColor500);
     margin-bottom: 2rem;
