@@ -685,16 +685,10 @@ nav .CtaButton2{
 
 #UscisLandingImg img {
     width: 75%;
-    height: 75%;
-    border-radius: 50% / 40%;
-    object-fit: cover;
 }
 
 #BirthLandingImg img {
     width: 75%;
-    height: 75%;
-    border-radius: 50% / 40%;
-    object-fit: cover;
 }
 
 .translationService #MainPar{
