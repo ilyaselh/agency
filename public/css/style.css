@@ -93,7 +93,8 @@ nav .navbar-brand{
     font-weight: 600;
     font-size: 1rem;
     color: #124265 !important;
-    scale: 55%;
+    transform: scale(0.55);
+    transform-origin: left; /* This keeps the left edge fixed */
 }
 
 nav img{
