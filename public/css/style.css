@@ -93,8 +93,6 @@ nav .navbar-brand{
     font-weight: 600;
     font-size: 1rem;
     color: #124265 !important;
-    transform: scale(0.55);
-    transform-origin: left; /* This keeps the left edge fixed */
 }
 
 nav img{
@@ -1039,7 +1037,7 @@ nav .CtaButton2{
         min-height: 100vh !important;
         overflow: hidden; /* Prevent overflow */
         p{
-            font-size: 1.15rem !important;
+            
             color: #7f7f7f;
         }
 
