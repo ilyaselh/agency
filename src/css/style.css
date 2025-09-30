@@ -775,34 +775,44 @@ nav .CtaButton2{
 }
 
 .translationService #LandingPageSection1{
-    padding-bottom: 5rem;
     border-bottom: 2px solid #B3CBFF;
 
     @media only screen and (min-width: 768px) {
-        .trustRow{
-            margin-top: 7rem !important;
-        }
         .trust1{
-            width: 12rem;
-            margin-bottom: 1.75rem;
+            width: 6rem;
+            margin-bottom: 0.75rem;
         }
         .trust2{
             width:7rem;
             margin-bottom: 1.35rem;
         }
         .trust3{
-            width: 5rem;
-            margin-bottom: 1.5rem;
+            width: 15rem;
+            margin-bottom: 1.65rem;
         }
         .trustCol{
             border-right: 1px solid rgb(180, 180, 180);
             border-image: linear-gradient(to bottom, rgb(240, 240, 240) 5%, #b4b4b4 50%, rgb(240, 240, 240) 95%) 1;  
         }
+        .trustRow{
+            margin-top: 4rem;
+        }
+        .trustSignal{
+            margin-top: 1rem;
+            background-color: var(--mainColor700);
+            color: white !important;
+
+            p{
+                color: white !important;
+                font-weight: 600;
+            }
+        }
+
     }
     
     @media only screen and (max-width: 768px) {
         .trust1{
-            width: 8.5rem;
+            width: 5rem;
             margin-bottom: 1.75rem;
         }
         .trust2{
@@ -810,17 +820,38 @@ nav .CtaButton2{
             margin-bottom: 1.35rem;
         }
         .trust3{
-            width: 3rem;
+            width: 7rem;
             margin-bottom: 1.5rem;
         }
         .trustCol{
-            border-bottom: 1px solid #b4b4b4;
-            border-image: linear-gradient(to left, rgb(240, 240, 240) 5%, #b4b4b4 50%, rgb(240, 240, 240) 95%) 1;
             margin-bottom: 2rem;
         }
+        .trustRow{
+            margin-top: 2.5rem;
+        }
+        .trustSignal{
+            margin-top: 4rem;
+            background-color: var(--mainColor700);
+            color: white !important;
+
+            p{
+                color: white !important;
+                font-weight: 600;
+            }
+}
+
     }
 }
 
+.HeroMiniSection{
+    /* Mobile */
+    margin-bottom: 0rem;
+
+    /* Desktop */
+    @media (min-width: 1024px) {
+        margin-bottom: 7rem;
+    }
+}
 
 .translationService #LandingPageHowItWorks{
     padding-bottom: 5rem;
