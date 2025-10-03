@@ -731,13 +731,14 @@ nav .CtaButton2{
 .translationService .CtaButton2{
     padding-left: 3rem;
     padding-right: 3rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
     border-radius: 0.35rem;
     background-color: #ebebeb;
     margin-bottom: 0.5rem;
     transition: transform .35s;
-    color: rgb(116, 116, 116);
+    color: var(--mainColor500);
+    border: 0.12rem solid var(--mainColor500); /* Red border */
     font-weight: 600;
 
 }
@@ -750,7 +751,6 @@ nav .CtaButton2{
 
 .translationService .CtaButton2:hover{
     transform: scale(1.1); 
-    color: rgb(116, 116, 116) !important;
 }
 
 .translationService .note{
