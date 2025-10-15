@@ -1253,3 +1253,35 @@ li {
         font-size: 1rem;
     }
 }
+
+
+
+/* Add to style.css */
+.blob-container {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.blob-image {
+    width: 100%;
+    height: auto;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    box-shadow: 0 20px 60px rgba(25, 94, 235, 0.2);
+    
+}
+
+@keyframes blob-morph {
+    0%, 100% { border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; }
+    25% { border-radius: 58% 42% 75% 25% / 76% 46% 54% 24%; }
+    50% { border-radius: 50% 50% 33% 67% / 55% 27% 73% 45%; }
+    75% { border-radius: 33% 67% 58% 42% / 63% 68% 32% 37%; }
+}
+
+@media (max-width: 768px) {
+    .blob-container {
+        max-width: 500px;
+    }
+}
+
