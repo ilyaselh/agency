@@ -691,7 +691,6 @@ nav .CtaButton2{
 
 .translationService #MainPar{
     color: #7f7f7f ;
-    padding-bottom: 2rem !important;
     
 }
 
@@ -738,7 +737,7 @@ nav .CtaButton2{
     margin-bottom: 0.5rem;
     transition: transform .35s;
     color: var(--mainColor500);
-    border: 0.12rem solid var(--mainColor500); /* Red border */
+    border: 0rem solid var(--mainColor500); /* Red border */
     font-weight: 600;
 
 }
@@ -1285,3 +1284,47 @@ li {
     }
 }
 
+/* Review Section Styling */
+.review-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.5rem 0;
+    gap: 0.25rem;
+}
+
+.review-section .rating-stars {
+    display: inline-flex;
+    gap: 0.15rem;
+}
+
+.review-section .rating-stars i {
+    font-size: 1.1rem;
+}
+
+.review-section .rating-text {
+    font-size: 1rem;
+    line-height: 1.1rem;
+}
+
+/* Mobile Review Section */
+@media only screen and (max-width: 600px) {
+    .review-section .rating-text {
+        font-size: 0.9rem;
+    }
+    
+    .review-section{
+                padding-left: 1rem !important;
+        padding-right: 1rem !important;
+
+    }
+    .review-section .rating-stars i {
+        font-size: 1rem;
+    }
+
+    #ctaBtns{
+                padding-left: 1rem !important;
+        padding-right: 1rem !important;
+
+    }
+}
